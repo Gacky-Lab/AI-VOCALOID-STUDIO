@@ -27,6 +27,7 @@ import os
 from pathlib import Path
 import shutil
 import sys
+import traceback
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 from urllib.parse import urlparse, parse_qs
@@ -267,7 +268,11 @@ async def run_mcp(score, bpm, name, destination):
                 raise RuntimeError(f"Required tools missing: {sorted(required-tools)}")
 
             async def call(tool, **kwargs):
-                return unpack(await client.call_tool(tool, kwargs))
+                print(f"MCP_STAGE: {tool}", flush=True)
+                try:
+                    return unpack(await client.call_tool(tool, kwargs))
+                except Exception as exc:
+                    raise RuntimeError(f"MCP call failed at {tool}: {exc}") from exc
 
             status = await call("vocaloid_status")
             voices = await call("voicebanks")
@@ -332,6 +337,8 @@ def main():
     inputs = parser.add_mutually_exclusive_group(required=True)
     inputs.add_argument("--midi", help="Existing Suno Studio MIDI export")
     inputs.add_argument("--midi-url", help="Suno MCP temporary signed MIDI URL")
+    inputs.add_argument("--reuse-midi", action="store_true",
+                        help="Reuse the newest previously downloaded Suno MIDI in output/suno_v7_previews")
     parser.add_argument("--dry-run", action="store_true",
                         help="Analyze only; never start VOCALOID or generate audio")
     args = parser.parse_args()
@@ -345,6 +352,18 @@ def main():
     if args.midi_url:
         source = destination / (SONG_ID + ".mid")
         download_existing_midi(args.midi_url, source)
+    elif args.reuse_midi:
+        candidates = [p for p in OUTROOT.glob("*/" + SONG_ID + ".mid")
+                      if p.is_file() and p.stat().st_size >= 100]
+        if not candidates:
+            raise FileNotFoundError(
+                "No previous downloaded Suno MIDI found under output/suno_v7_previews. "
+                "This command requires a successful prior --midi-url download."
+            )
+        source = max(candidates, key=lambda p: p.stat().st_mtime_ns)
+        if source.read_bytes()[:4] != b"MThd":
+            raise ValueError("Cached MIDI has invalid MThd header: " + str(source))
+        print(f"REUSING_MIDI: {source}", flush=True)
     else:
         source = Path(args.midi).resolve(strict=True)
         if source.suffix.lower() not in {".mid", ".midi"}:
@@ -398,4 +417,7 @@ if __name__ == "__main__":
         sys.exit(main())
     except Exception as exc:
         print(f"FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
+        # ExceptionGroup hides the actual MCP/stdlib root error when printed
+        # as a one-line str(). The nested Python traceback is essential.
+        traceback.print_exception(exc, file=sys.stderr)
         sys.exit(1)
