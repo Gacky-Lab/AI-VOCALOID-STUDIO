@@ -1,0 +1,103 @@
+{
+  "source_sha256": "bbbfbf837b13f30dfd7af35245febc6b082f5bc52ad007c2fd33b54194ec8c32",
+  "body_sha256": "f826652b9ab03ee34651a4f657a0ac08a7609cec51c6f4cd15c7dab20e845b68",
+  "browser": "144.0.7559.96",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "layout": {
+    "1920": {
+      "width": 1920,
+      "height": 1080,
+      "issues": [],
+      "panels": 6,
+      "nodes": 7,
+      "page_errors": [],
+      "platform_fonts": [
+        {
+          "familyName": "Noto Sans CJK JP",
+          "postScriptName": "NotoSansCJKjp-Regular",
+          "isCustomFont": false,
+          "glyphCount": 44
+        }
+      ]
+    },
+    "1440": {
+      "width": 1440,
+      "height": 2133.59375,
+      "issues": [],
+      "panels": 6,
+      "nodes": 7,
+      "page_errors": [],
+      "platform_fonts": [
+        {
+          "familyName": "Noto Sans CJK JP",
+          "postScriptName": "NotoSansCJKjp-Regular",
+          "isCustomFont": false,
+          "glyphCount": 44
+        }
+      ]
+    },
+    "768": {
+      "width": 768,
+      "height": 3190.484375,
+      "issues": [],
+      "panels": 6,
+      "nodes": 7,
+      "page_errors": [],
+      "platform_fonts": [
+        {
+          "familyName": "Noto Sans CJK JP",
+          "postScriptName": "NotoSansCJKjp-Regular",
+          "isCustomFont": false,
+          "glyphCount": 44
+        }
+      ]
+    },
+    "390": {
+      "width": 390,
+      "height": 4001.265625,
+      "issues": [],
+      "panels": 6,
+      "nodes": 7,
+      "page_errors": [],
+      "platform_fonts": [
+        {
+          "familyName": "Noto Sans CJK JP",
+          "postScriptName": "NotoSansCJKjp-Regular",
+          "isCustomFont": false,
+          "glyphCount": 44
+        }
+      ]
+    },
+    "320": {
+      "width": 320,
+      "height": 4325.03125,
+      "issues": [],
+      "panels": 6,
+      "nodes": 7,
+      "page_errors": [],
+      "platform_fonts": [
+        {
+          "familyName": "Noto Sans CJK JP",
+          "postScriptName": "NotoSansCJKjp-Regular",
+          "isCustomFont": false,
+          "glyphCount": 44
+        }
+      ]
+    }
+  },
+  "negative_tests": {
+    "changed_body": true,
+    "wrong_metric": true,
+    "missing_field": true,
+    "oversized_content": true
+  },
+  "same_environment_repeat_png_identical": true,
+  "png_size": [
+    3840,
+    2160
+  ],
+  "png_sha256": "e22367676746b334316dc99cc3dc73e256bccd2633fb4450f39f7335abf832e3",
+  "html_sha256": "e15527494c88cf7a34b789fe63cb3aa286efab457a1f4912e8dc9697f91d1bc1",
+  "scope": "Design visualization only; Windows and music engine integration not tested here."
+}
