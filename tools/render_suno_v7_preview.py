@@ -28,6 +28,7 @@ from pathlib import Path
 import shutil
 import sys
 import traceback
+import zipfile
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 from urllib.parse import urlparse, parse_qs
@@ -250,6 +251,28 @@ def unpack(result):
     raise RuntimeError("MCP tool response did not return parseable JSON")
 
 
+def pick_asa_template():
+    """Prefer an actually native-saved asa VPR from the earlier verified render."""
+    candidate = BRIDGE / "output" / "mcp_v7_asa_song_20261125_0251.vpr"
+    if not candidate.is_file():
+        return None
+    try:
+        with zipfile.ZipFile(candidate) as archive:
+            data = json.loads(archive.read("Project/sequence.json"))
+        voices = data.get("voices", [])
+        tracks = data.get("tracks", [])
+        if (any(isinstance(voice, dict) and voice.get("compID") == SINGER_COMP_ID
+                for voice in voices)
+                and tracks and tracks[0].get("type") == 2
+                and tracks[0].get("parts")):
+            print(f"USING_INSTALLED_ASA_TEMPLATE: {candidate}", flush=True)
+            return str(candidate)
+        print("ASA_TEMPLATE_NOT_MATCHING: using packaged fallback template", flush=True)
+    except (OSError, KeyError, ValueError, TypeError, zipfile.BadZipFile) as exc:
+        print(f"ASA_TEMPLATE_NOT_READABLE: {type(exc).__name__}: {exc}", flush=True)
+    return None
+
+
 async def run_mcp(score, bpm, name, destination):
     params = StdioServerParameters(
         command=sys.executable,
@@ -283,14 +306,41 @@ async def run_mcp(score, bpm, name, destination):
             if not any(v.get("comp_id") == SINGER_COMP_ID and v.get("synthesizable_version") for v in installed):
                 raise RuntimeError("asa voicebank is not synthesizable/installed")
 
-            composed = await call(
-                "score_compose", output_name=name + "_draft.vpr", title="Suno intro asa approximate",
-                bpm=bpm, notes=score, voice_comp_id=SINGER_COMP_ID
-            )
+            # score_compose requires an explicitly specified voice ID to exist
+            # in the TEMPLATE'S voices list, not merely in voicebanks().
+            # The original script incorrectly used an installed comp ID with
+            # the bundled template and failed before synthesis.
+            template = pick_asa_template()
+            compose_args = {
+                "output_name": name + "_draft.vpr",
+                "title": "Suno intro asa approximate",
+                "bpm": bpm,
+                "notes": score,
+            }
+            if template:
+                compose_args["template"] = template
+                compose_args["voice_comp_id"] = SINGER_COMP_ID
+            # With bundled template use its original voice during composition,
+            # then select the actually installed asa through NATIVE voice.set.
+            composed = await call("score_compose", **compose_args)
             session = composed.get("native_session", {}).get("session_id")
             if not session:
                 raise RuntimeError(f"score_compose returned no session: {str(composed)[:1500]}")
             try:
+                # V7 voice setting is TRACK-SCOPED. Verify explicitly that
+                # synthesis uses the installed asa and not the template singer.
+                await call("project_edit", session_id=session, operation="voice.set",
+                           options={"track_index": 0, "part_index": 0, "scope": "track",
+                                    "ai_voice_bank_id": SINGER_COMP_ID})
+                installed_voice = await call(
+                    "project_edit", session_id=session, operation="voice.get",
+                    options={"track_index": 0, "part_index": 0, "scope": "track"}
+                )
+                if installed_voice.get("result", installed_voice).get("ai_voice_bank_id") != SINGER_COMP_ID:
+                    raise RuntimeError(
+                        "Native voice.get did not confirm installed asa; stopping before synthesis. "
+                        + str(installed_voice)[:1200]
+                    )
                 adjusted = await call("project_ai_adjust", session_id=session,
                                       track_index=0, part_index=0)
                 mixed = await call("project_audio", session_id=session,
