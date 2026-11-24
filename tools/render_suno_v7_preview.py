@@ -28,6 +28,10 @@ from pathlib import Path
 import shutil
 import sys
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
+from urllib.parse import urlparse, parse_qs
+from datetime import datetime as _dt, timezone as _tz
+import xml.etree.ElementTree as ET
 
 import mido
 import numpy as np
@@ -203,9 +207,33 @@ def download_existing_midi(url, dest):
     if host != "suno-data-uploads.s3.amazonaws.com":
         raise ValueError("Unexpected MIDI host; use the official Suno MIDI download URL")
     request = Request(url, headers={"User-Agent": "AI-VOCALOID-STUDIO/1.0"})
-    with urlopen(request, timeout=60) as response:
-        with dest.open("xb") as handle:
-            shutil.copyfileobj(response, handle)
+    try:
+        with urlopen(request, timeout=60) as response:
+            with dest.open("xb") as handle:
+                shutil.copyfileobj(response, handle)
+    except HTTPError as exc:
+        # Never print signed URL/token. S3 returns XML with a meaningful Code.
+        error_body = exc.read(4096).decode("utf-8", errors="replace")
+        s3_code, s3_message = "unknown", ""
+        try:
+            root = ET.fromstring(error_body)
+            s3_code = root.findtext("Code", "unknown")
+            s3_message = root.findtext("Message", "")
+        except ET.ParseError:
+            pass
+        expires = parse_qs(urlparse(url).query).get("Expires", [None])[0]
+        expired = bool(expires and expires.isdigit() and
+                       int(expires) <= int(_dt.now(_tz.utc).timestamp()))
+        raise RuntimeError(
+            "Suno-hosted MIDI download denied, HTTP " + str(exc.code)
+            + "; S3_Code=" + s3_code
+            + "; S3_Message=" + s3_message[:300]
+            + "; SignedUrlAlreadyExpired=" + str(expired)
+            + ". If expired, obtain a new audio_midi URL from Suno MCP. "
+            "If not expired and denied, the signed link may be invalid; "
+            "download through your signed-in Suno Studio browser, then "
+            "rerun with --midi <local-file-path>."
+        ) from None
     if dest.stat().st_size < 100 or dest.read_bytes()[:4] != b"MThd":
         raise ValueError("Downloaded file is not an expected standard MIDI file")
 
