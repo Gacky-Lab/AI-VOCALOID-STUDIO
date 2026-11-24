@@ -34,6 +34,7 @@ Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID sco
 
 - [公開IFの根拠と検証状況](docs/INTERFACES_VERIFIED_2026-11-24.md)
 - [15秒の合成MIDIで試す](docs/PHASE0_OFFLINE.md)
+- [REAPERの公式ReaScriptに沿ったWAV配置スクリプト生成](docs/REAPER_IMPORT_BRIDGE.md)（GUI実行は未検証）
 - [Actionsの実行結果](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/actions)
 
 ## Documents / 公開資料

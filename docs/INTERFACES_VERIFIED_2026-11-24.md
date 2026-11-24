@@ -10,7 +10,7 @@
 | VOCALOID6のVSQX/VPR読込 | [公式FAQ](https://www.vocaloid.com/en/support/faq/603) | ファイル形式の存在を確認。エディターへの自動投入は未実装 | NOT_RUN |
 | VOCALOID7のVSQX/VPR読込 | [公式FAQ](https://www.vocaloid.com/support/faq/932) | V6用非公式MCPのV7互換は仮定しない | NOT_RUN |
 | VOCALOID6非公式MCP | [公開実装](https://github.com/Tehcnological/vocaloid6MCP) | バージョン固定、tools/list、音源ID、GUI動作を自環境で試験する必要あり | NOT_RUN |
-| REAPER | [公式ReaScript API](https://www.reaper.fm/sdk/reascript/reascripthelp.html) | Lua制御は公式。実機でのトラック・音声配置は未実施 | NOT_RUN |
+| REAPER | [公式ReaScript API](https://www.reaper.fm/sdk/reascript/reascripthelp.html) | WAV配置Luaの生成器とテストを追加。REAPER本体の実行は未実施 | NOT_RUN |
 
 ## データ契約上の重要な区別
 
