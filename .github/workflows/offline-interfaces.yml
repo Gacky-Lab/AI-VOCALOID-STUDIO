@@ -33,3 +33,41 @@ jobs:
       - name: Validate MIDI candidate JSON schema
         run: |
           python -c "import json; from pathlib import Path; from jsonschema import validate; validate(json.loads(Path('work/phase0/candidates.json').read_text()), json.loads(Path('schemas/midi_candidates.v1.schema.json').read_text()))"
+
+  cross_repository_handoff:
+    name: Two-repository end-to-end contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout AI production repository
+        uses: actions/checkout@v7
+      - name: Checkout pinned lyric handoff producer
+        uses: actions/checkout@v7
+        with:
+          repository: Gacky-Lab/LYRIC-DESIGN-FRAMEWORK
+          ref: 9cb62149b9942d5651959e494feea1ec77224844
+          path: lyric-source
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-dev.txt
+      - name: Assert both repositories share identical handoff schema
+        run: cmp schemas/lyric_handoff.v1.schema.json lyric-source/schemas/lyric_handoff.v1.schema.json
+      - name: Export real JSON with lyric framework code
+        run: >
+          python lyric-source/scripts/export_handoff.py
+          --lyrics lyric-source/examples/handoff/fictional_lyrics.txt
+          --song-id fictional-receipt-demo
+          --version-id demo-b
+          --scorecard lyric-source/examples/fictional-revision/scorecard-B.json
+          --output work/cross/handoff.json
+      - name: Read and verify handoff with independent AI production consumer
+        run: python tools/verify_handoff.py work/cross/handoff.json --song-id fictional-receipt-demo
+      - name: Generate synthetic MIDI and attach verified lyric provenance
+        run: |
+          python tools/make_phase0_midi.py --output work/cross/probe.mid
+          python tools/midi_candidates.py --midi work/cross/probe.mid --track-index 1 --song-id fictional-receipt-demo --lyric-handoff work/cross/handoff.json --output work/cross/candidates.json
+      - name: Verify end-to-end candidate still requires alignment
+        run: |
+          python -c "import json; from pathlib import Path; d=json.loads(Path('work/cross/candidates.json').read_text()); h=json.loads(Path('work/cross/handoff.json').read_text()); assert d['alignment_status']=='needs_lyric_and_voice_review'; assert d['lyric_reference']['lyrics_sha256']==h['lyrics_sha256']; assert d['lyric_reference']['lyric_version_id']==h['lyric_version_id']"
