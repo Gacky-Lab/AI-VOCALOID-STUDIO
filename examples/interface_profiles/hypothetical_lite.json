@@ -1,0 +1,17 @@
+{
+  "mode": "production",
+  "asserted_true": [
+    "studio_access_confirmed",
+    "studio_export_inspected",
+    "handoff_integrity_checked",
+    "midi_file_inspected",
+    "mido_available",
+    "moras_to_notes_reviewed",
+    "song_ir_schema_validated",
+    "v6_lite_editor_ready",
+    "miku_voicebank_ready",
+    "manual_v6_wav_verified",
+    "reaper_installed",
+    "reaper_manual_import_verified"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mode": "demo",
+  "asserted_true": [
+    "synthetic_midi_generated",
+    "handoff_integrity_checked",
+    "midi_file_inspected",
+    "mido_available"
+  ]
+}

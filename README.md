@@ -37,6 +37,10 @@ Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID sco
 - [REAPERの公式ReaScriptに沿ったWAV配置スクリプト生成](docs/REAPER_IMPORT_BRIDGE.md)（GUI実行は未検証）
 - [Actionsの実行結果](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/actions)
 
+## 接続方式を実測状況で層別
+
+[推奨・条件付き・代替・不採用の選定表とFail-Closed選定コード](docs/INTERFACE_SELECTION.md)を追加。実機の成功証拠がなければ`BLOCKED`とし、仮のプロファイルを渡してもWindows実機の動作成功とは表示しません。
+
 ## Documents / 公開資料
 
 - [Integrated design specification (Japanese)](docs/design.md) — 統合設計仕様書、詳細仕様、試験計画、データ契約、可視化契約。

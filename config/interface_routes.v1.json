@@ -1,0 +1,248 @@
+{
+  "catalog_version": "1.0.0",
+  "as_of": "2026-11-25",
+  "scope": "Architecture selection, not actual Windows system acceptance",
+  "stages": [
+    "source",
+    "lyrics",
+    "notes",
+    "alignment",
+    "render",
+    "mix"
+  ],
+  "routes": [
+    {
+      "id": "synthetic_phase0",
+      "stage": "source",
+      "modes": [
+        "demo"
+      ],
+      "priority": 100,
+      "kind": "fixture_only",
+      "evidence": "CI_VERIFIED_SYNTHETIC",
+      "requires": [
+        "synthetic_midi_generated"
+      ],
+      "summary": "15s test MIDI; not Suno music",
+      "source": "https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/blob/main/tools/make_phase0_midi.py"
+    },
+    {
+      "id": "suno_studio_manual_export",
+      "stage": "source",
+      "modes": [
+        "production"
+      ],
+      "priority": 100,
+      "kind": "official_ui",
+      "evidence": "VENDOR_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "studio_access_confirmed",
+        "studio_export_inspected"
+      ],
+      "summary": "Download and inspect licensed MIDI/WAV/stems; Studio subscription required",
+      "source": "https://help.suno.com/en/articles/13925249"
+    },
+    {
+      "id": "licensed_local_midi",
+      "stage": "source",
+      "modes": [
+        "production"
+      ],
+      "priority": 80,
+      "kind": "standard_format",
+      "evidence": "LOCAL_WORKFLOW_NOT_RUN",
+      "requires": [
+        "licensed_midi_inspected"
+      ],
+      "summary": "Independently licensed MIDI from a file; do not assume Suno provenance",
+      "source": "https://mido.readthedocs.io/en/stable/api.html"
+    },
+    {
+      "id": "lyric_handoff_v1",
+      "stage": "lyrics",
+      "modes": [
+        "demo",
+        "production"
+      ],
+      "priority": 100,
+      "kind": "local_contract",
+      "evidence": "CI_VERIFIED_SYNTHETIC",
+      "requires": [
+        "handoff_integrity_checked"
+      ],
+      "summary": "UTF-8 lyric version + SHA-256; not aligned singing",
+      "source": "https://github.com/Gacky-Lab/LYRIC-DESIGN-FRAMEWORK/blob/main/docs/handoff_interface.md"
+    },
+    {
+      "id": "mido_midi_candidates",
+      "stage": "notes",
+      "modes": [
+        "demo",
+        "production"
+      ],
+      "priority": 100,
+      "kind": "local_code",
+      "evidence": "CI_VERIFIED_SYNTHETIC",
+      "requires": [
+        "midi_file_inspected",
+        "mido_available"
+      ],
+      "summary": "SMF note-on/off, tempo and meter into review-only 48-kHz samples",
+      "source": "https://mido.readthedocs.io/en/stable/api.html"
+    },
+    {
+      "id": "vocal2midi_exploratory",
+      "stage": "notes",
+      "modes": [
+        "production"
+      ],
+      "priority": 50,
+      "kind": "community_tool",
+      "evidence": "COMMUNITY_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "licensed_vocal_audio",
+        "vocal2midi_models_tested",
+        "alignment_reference_reviewed"
+      ],
+      "summary": "Exploratory ASR/alignment when MIDI unavailable; not a guaranteed Song IR",
+      "source": "https://github.com/Xiantaidu/Vocal2Midi"
+    },
+    {
+      "id": "reviewed_song_ir",
+      "stage": "alignment",
+      "modes": [
+        "production"
+      ],
+      "priority": 100,
+      "kind": "manual_quality_gate",
+      "evidence": "DESIGNED_NOT_RUN",
+      "requires": [
+        "moras_to_notes_reviewed",
+        "song_ir_schema_validated"
+      ],
+      "summary": "Lyric-to-note assignment requires independent review and complete Song IR",
+      "source": "https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/blob/main/schemas/song_ir.schema.json"
+    },
+    {
+      "id": "v6_mcp_unattended",
+      "stage": "render",
+      "modes": [
+        "production"
+      ],
+      "priority": 100,
+      "kind": "community_automation",
+      "evidence": "COMMUNITY_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "v6_full_editor_ready",
+        "miku_voicebank_ready",
+        "mcp_schema_pinned",
+        "three_independent_renders_passed"
+      ],
+      "summary": "Nonofficial MCP; do not allow unsupervised render on docs alone",
+      "source": "https://github.com/Tehcnological/vocaloid6MCP"
+    },
+    {
+      "id": "v6_full_manual",
+      "stage": "render",
+      "modes": [
+        "production"
+      ],
+      "priority": 90,
+      "kind": "official_gui_manual",
+      "evidence": "VENDOR_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "v6_full_editor_ready",
+        "miku_voicebank_ready",
+        "manual_v6_wav_verified"
+      ],
+      "summary": "Recommended first licensed manual 15s render where full V6 is installed",
+      "source": "https://www.vocaloid.com/en/vocaloid6/specs/"
+    },
+    {
+      "id": "v6_lite_manual",
+      "stage": "render",
+      "modes": [
+        "production"
+      ],
+      "priority": 85,
+      "kind": "official_gui_manual",
+      "evidence": "VENDOR_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "v6_lite_editor_ready",
+        "miku_voicebank_ready",
+        "manual_v6_wav_verified"
+      ],
+      "summary": "Standalone fallback, max two tracks, no DAW VST3 bridge",
+      "source": "https://www.vocaloid.com/vocaloid6/specs/"
+    },
+    {
+      "id": "v7_manual",
+      "stage": "render",
+      "modes": [
+        "production"
+      ],
+      "priority": 75,
+      "kind": "official_gui_manual",
+      "evidence": "VENDOR_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "v7_editor_ready",
+        "miku_voicebank_ready",
+        "v7_import_render_verified"
+      ],
+      "summary": "V7 can import legacy VPR/VSQX; verify actual voicebank and export locally",
+      "source": "https://www.vocaloid.com/support/faq/932"
+    },
+    {
+      "id": "reaper_lua_reviewed",
+      "stage": "mix",
+      "modes": [
+        "production"
+      ],
+      "priority": 100,
+      "kind": "official_script_api",
+      "evidence": "OFFLINE_LUA_GENERATION_ONLY",
+      "requires": [
+        "reaper_installed",
+        "reaper_lua_import_verified"
+      ],
+      "summary": "Generate and inspect WAV import Lua; run manually in a saved copy",
+      "source": "https://www.reaper.fm/sdk/reascript/reascripthelp.html"
+    },
+    {
+      "id": "reaper_manual",
+      "stage": "mix",
+      "modes": [
+        "production"
+      ],
+      "priority": 80,
+      "kind": "official_gui_manual",
+      "evidence": "VENDOR_DOCUMENTED_LOCAL_NOT_RUN",
+      "requires": [
+        "reaper_installed",
+        "reaper_manual_import_verified"
+      ],
+      "summary": "Direct manual WAV import fallback",
+      "source": "https://www.reaper.fm/sdk/reascript/reascript.php"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "v6_lite_vst3",
+      "stage": "render",
+      "reason": "VOCALOID6 Editor Lite is standalone-only; no VST3 DAW integration",
+      "source": "https://www.vocaloid.com/vocaloid6/specs/"
+    },
+    {
+      "id": "suno_mcp_direct_to_vpr",
+      "stage": "render",
+      "reason": "Official Suno MCP alone does not establish a verified VPR/VSQX or Hatsune Miku render API",
+      "source": "https://help.suno.com/en/articles/14486145"
+    },
+    {
+      "id": "treat_midi_as_song_ir",
+      "stage": "alignment",
+      "reason": "Unaligned MIDI candidates lack required moras, lyric_span_ids and voice verification",
+      "source": "https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/blob/main/schemas/song_ir.schema.json"
+    }
+  ]
+}
