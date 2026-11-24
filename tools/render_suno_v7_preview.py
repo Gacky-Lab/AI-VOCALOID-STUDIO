@@ -190,13 +190,46 @@ def build_notes(intro_notes, bpm):
                     raise RuntimeError(f"No choir pitch within 0.75s of lyric {syllable!r} at {midpoint:.2f}s")
             pos = round(t0 * bpm / 60, 5)
             duration = round(max((t1 - t0) * bpm / 60, 0.035), 5)
-            # Tiny overlap for adjacent words is rejected by score_compose;
-            # the timestamps are non-overlapping here.
             out.append({"start": pos, "duration": duration,
                         "pitch": choice["pitch"], "lyric": syllable, "lang_id": 0})
             details.append({"lyric": syllable, "time_s": round(t0, 3),
                             "pitch": choice["pitch"], "midi_gap_s": round(gap, 3)})
             starts.append(t0)
+
+    # Native score_compose requires monophonic notes, in both 480-PPQ
+    # integer ticks AND decimal beat values. Independently rounded
+    # positions/durations at contiguous lyric boundaries previously
+    # created tiny overlaps (up to ~0.00001 beat). Quantize to MIDI
+    # ticks and leave one tick between all notes to guard against
+    # floating-point/Decimal representation discrepancies.
+    tick_starts = []
+    for note in out:
+        tick = int(note["start"] * 480 + 0.5)
+        if tick_starts:
+            tick = max(tick, tick_starts[-1] + 2)
+        tick_starts.append(tick)
+    for index, note in enumerate(out):
+        start_tick = tick_starts[index]
+        natural_end_tick = int((note["start"] + note["duration"]) * 480 + 0.5)
+        end_tick = max(start_tick + 1, natural_end_tick)
+        if index + 1 < len(tick_starts):
+            end_tick = min(end_tick, tick_starts[index + 1] - 1)
+        if end_tick <= start_tick:
+            raise RuntimeError(f"Cannot quantize mono note {index} to a positive duration")
+        note["start"] = start_tick / 480
+        note["duration"] = (end_tick - start_tick) / 480
+
+    # Fail locally before starting the expensive native voice engine if
+    # any beat-based or tick-based overlap remains.
+    from decimal import Decimal
+    for index, (left, right) in enumerate(zip(out, out[1:])):
+        beat_end = Decimal(str(left["start"])) + Decimal(str(left["duration"]))
+        beat_next = Decimal(str(right["start"]))
+        left_end_tick = int((left["start"] + left["duration"]) * 480 + 0.5)
+        right_start_tick = int(right["start"] * 480 + 0.5)
+        if beat_end >= beat_next or left_end_tick >= right_start_tick:
+            raise RuntimeError(f"Non-monophonic score after quantization near note {index}")
+    print(f"MONOPHONIC_PREFLIGHT: PASS ({len(out)} notes; 480 PPQ; 1-tick gaps)", flush=True)
     return out, details, dropped
 
 
