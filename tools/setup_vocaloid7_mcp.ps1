@@ -20,11 +20,15 @@ if ($Action -eq 'RegisterCodex') {
   exit 0
 }
 Need 'git'; Need 'dotnet'; Need $PythonExe
-$PyPath=(& $PythonExe -c 'import sys; print(sys.executable)').Trim()
-Good 'Python path check'
-$PyOk=(& $PythonExe -c 'import sys; print(int(sys.version_info >= (3,11)))').Trim()
-Good 'Python version check'
-if ($PyOk -ne '1') { throw 'Python 3.11 or later required.' }
+# Windows App Execution Alias can make "python" resolve without actually starting Python.
+# Collect output as a string before Trim(), so a missing interpreter yields a useful error.
+$PyPathText = (& $PythonExe -c 'import sys; print(sys.executable)' 2>&1 | Out-String).Trim()
+if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($PyPathText) -or -not (Test-Path -LiteralPath $PyPathText)) {
+  throw 'Python could not be started. Check "python --version" and "py --version"; install Python 3.11+ from python.org, restart VS Code, or pass -PythonExe with the actual full path to python.exe. The Windows App Execution Alias may be intercepting "python".'
+}
+$PyPath=$PyPathText
+$PyOkText = (& $PyPath -c 'import sys; print(int(sys.version_info >= (3,11)))' 2>&1 | Out-String).Trim()
+if ($LASTEXITCODE -ne 0 -or $PyOkText -ne '1') { throw 'Python 3.11 or later required. Check your active Python interpreter.' }
 $Sdks=@(& dotnet --list-sdks)
 Good '.NET SDK check'
 if (-not @($Sdks | Where-Object { $_ -match '^10\.' }).Count) { throw '.NET 10 SDK required.' }
