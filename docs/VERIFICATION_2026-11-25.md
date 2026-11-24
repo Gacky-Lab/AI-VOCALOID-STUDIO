@@ -100,3 +100,30 @@ Requested URL: https://suno.com/s/RVDcj9JvsVPCWJGu
 | Suno official MCP in local Copilot | NOT VERIFIED |
 | Target Suno song metadata/MIDI/stems | NOT VERIFIED |
 | Target Suno song recreated by VOCALOID7 | **NOT RUN** |
+
+---
+
+## 7. Canonical Suno song and ChatGPT-side Suno MCP results (2026-11-25 update)
+
+This **supersedes older blockers in section 5** about not knowing the canonical song ID or being unable to retrieve source metadata. It does **not** supersede the missing local VOCALOID7 rendering.
+
+- Short link: https://suno.com/s/RVDcj9JvsVPCWJGu
+- Canonical UUID: `f60cd638-8c59-428c-97c2-1eabd86b6a76`.
+- Canonical URL: https://suno.com/song/f60cd638-8c59-428c-97c2-1eabd86b6a76
+- Official Suno MCP `audio_retrieve`: **PASS** via ChatGPT session.
+- Title: `何もなかったように青い`; creator handle `gacky`; model `v6`; length `196.4 seconds`; complete/public; lyrics were returned.
+- Suno MCP `audio_lyrics_alignment`: **PASS**; word-level timestamp data returned. Word timings are estimates and do not supply vocal note pitch.
+- Suno MCP `audio_analysis`: **processing** on initial check; key/BPM/beat map not yet returned.
+- Suno MCP `audio_download` no-confirm preflight for WAV: `status=ok` and expiring signed URL returned; no download-credit confirmation needed. **File not verified on Windows**.
+- Suno MCP `audio_midi`: `status=ok` and expiring MIDI URL returned. Instruments: Electric Piano 1 (2,539 notes), Synth Choir (685), Electric Bass finger (581), Electric Bass pick (558), drums (1,200). **The vocal melody track has not yet been identified**, and a full MIDI file should not be passed blindly to VOCALOID7 as vocals.
+- Suno MCP `audio_stems_create` with `mode=two`: submitted within the user's reported **up-to-60 Suno song credit approval**. Stem group: `stemgrp_7e71d95c-0ceb-4c15-bf17-31788ecc02b6`, with two takes each of vocals/instrumental (expected total 10 credits on completion if both vocal takes succeeded). Most recent polling: take 2 vocals `6eb23c0e-0290-44b2-a1b6-37f130e4ebf5` and instrumental `40d2e75d-04ff-4736-968b-0f9fce1298bc` **complete**; take 1 pending. The final billed credit count has **not** been verified; do not claim zero.
+- The ChatGPT-connected Suno MCP is separate from the Windows VS Code Copilot MCP session. The latter reported **Suno and vocaloid7-native chat tools missing** even when VS Code MCP configurations were present. Windows project/WAV synthesis with this original Suno song is **still not done**.
+- No Suno credential, signed temporary download URL, proprietary MIDI/WAV data or lyrics were committed here. Signed URLs expire quickly and must be freshly requested in an authenticated session.
+
+### Next priority
+
+1. On Windows VS Code **MCP: List Servers**, verify `suno` and `vocaloid7-native` both show Running; use **Show Output** for either that fails; check per-chat **Configure Tools** in Copilot Agent mode and start a **new chat** after server startup. The presence of servers in the list is not enough if chat Agent tools are disabled. If necessary, continue with direct Python bridge invocation, as in the prior successful original 15-second synthesis.
+2. Download approved MIDI and both source stems to a local, ignored input folder with refreshed URLs. Verify local media without exposing credentials.
+3. Determine which MIDI notes belong to the lead vocal, compare against vocal stem and word timing; manually validate tricky Japanese kana.
+4. Render a first 15–30-second source-matched asa phrase, review the actual WAV and timing, then proceed with whole song.
+5. Archive stdout/stderr, actual output paths and checksums locally; track extra metered operations under the user's approval limit. Never count synthetic song test as this target's finished recreation.
