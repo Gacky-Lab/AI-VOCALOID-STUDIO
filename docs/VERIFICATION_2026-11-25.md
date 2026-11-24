@@ -166,12 +166,12 @@ Next task: acquire the exact MIDI and stem files into an ignored local directory
 
 ## 9. Executable local Suno-to-asa preview runner added (NOT YET TESTED)
 
-- Script: \`tools/render_suno_v7_preview.py\`.
-- Input: Suno MIDI URL obtained by already-completed \`audio_midi\`, or a local MIDI file.
-- The local Windows script downloads that MIDI (without initiating a new Suno conversion), checks the Synth Choir instrument track and interpolates the Suno-aligned opening lyric reading into candidate pitches, then calls the **previously validated direct stdio MCP** to do \`score_compose\`, \`project_ai_adjust\`, \`project_audio mixdown\`, \`project_save\` and \`project_close\`.
-- Intended output: ignored \`output/suno_v7_previews/<run-id>/\` directory with source MIDI, draft/full editable VPRX and asa singing WAV plus \`verification.json\`.
+- Script: `tools/render_suno_v7_preview.py`.
+- Input: Suno MIDI URL obtained by already-completed `audio_midi`, or a local MIDI file.
+- The local Windows script downloads that MIDI (without initiating a new Suno conversion), checks the Synth Choir instrument track and interpolates the Suno-aligned opening lyric reading into candidate pitches, then calls the **previously validated direct stdio MCP** to do `score_compose`, `project_ai_adjust`, `project_audio mixdown`, `project_save` and `project_close`.
+- Intended output: ignored `output/suno_v7_previews/<run-id>/` directory with source MIDI, draft/full editable VPRX and asa singing WAV plus `verification.json`.
 - **This is an approximate first 9.4-second prototype, not the entire original song and not proven melody recognition.** The Synth Choir track is a heuristic candidate, word alignment doesn't specify pitch, and small sokuon handling is approximate. It may fail, and source fidelity needs human auditory review.
-- **No assertion of successful local execution** until the owner runs this on Windows and provides actual outputs.
+- **Historical status at script creation:** execution was unverified. Subsequent owner-run success is recorded in section 10 below.
 - Signed Suno download URLs expire; do not commit them to GitHub, and do not display them in logs. The raw MIDI/WAV is private local output.
 
 
@@ -179,9 +179,9 @@ Next task: acquire the exact MIDI and stem files into an ignored local directory
 
 ## 10. VERIFIED: User-executed Suno MIDI → VOCALOID7 asa native 10-second WAV and project
 
-Owner-supplied PowerShell output following commit \`804da0edc91e4af0c1cfe0dd2966ad93f3cbc67d\` conclusively records:
+Owner-supplied PowerShell output following commit `804da0edc91e4af0c1cfe0dd2966ad93f3cbc67d` conclusively records:
 
-\`\`\`text
+```text
 REUSING_MIDI: ...\output\suno_v7_previews\20261124T184036Z_22412\f60cd638-8c59-428c-97c2-1eabd86b6a76.mid
 MONOPHONIC_PREFLIGHT: PASS (24 notes; 480 PPQ; 1-tick gaps)
 Rendering native VOCALOID7 asa preview (not full song)...
@@ -197,15 +197,15 @@ MCP_STAGE: project_audio
 MCP_STAGE: project_save
 MCP_STAGE: project_close
 "status": "PREVIEW_RENDERED"
-\`\`\`
+```
 
-- Candidate source: \`Synth Choir\` MIDI track index **1**; **24 syllabic notes**. The track is **not proven to be actual source lead-vocal**.
-- Native output: \`VOCALOID7 7.0.1.1\`, \`project_audio mixdown\` reports \`native=true\`, \`backend=VAE.Manual+VEM\`.
-- Local folder: \`C:\Users\smily\AI-VOCALOID-STUDIO\output\suno_v7_previews\20261124T184447Z_23972\`.
-- WAV: \`20261124T184447Z_23972_asa.wav\` (10.0 s, 44100 Hz, mono, 16-bit), peak \`0.510040283203125\`, RMS \`0.09656472511359551\`.
-- Editable project: \`20261124T184447Z_23972_asa.vprx\`.
-- WAV sha256: \`0aaeaff19f84d26c378710da4b2cfe863f743db41088f48a6a0d9861e8d1e341\`.
-- VPR sha256: \`8b1d8dfdbc246047cbeabac777f02c7a9c82e4b66c56f455d8a40130fd8bbfd8\`.
+- Candidate source: `Synth Choir` MIDI track index **1**; **24 syllabic notes**. The track is **not proven to be actual source lead-vocal**.
+- Native output: `VOCALOID7 7.0.1.1`, `project_audio mixdown` reports `native=true`, `backend=VAE.Manual+VEM`.
+- Local folder: `C:\Users\smily\AI-VOCALOID-STUDIO\output\suno_v7_previews\20261124T184447Z_23972`.
+- WAV: `20261124T184447Z_23972_asa.wav` (10.0 s, 44100 Hz, mono, 16-bit), peak `0.510040283203125`, RMS `0.09656472511359551`.
+- Editable project: `20261124T184447Z_23972_asa.vprx`.
+- WAV sha256: `0aaeaff19f84d26c378710da4b2cfe863f743db41088f48a6a0d9861e8d1e341`.
+- VPR sha256: `8b1d8dfdbc246047cbeabac777f02c7a9c82e4b66c56f455d8a40130fd8bbfd8`.
 - Human listening and fidelity to original Suno vocal **not yet assessed**. This proves a real native synthesized first-10-second preview; **not** completion of full 196.4-second Suno-to-VOCALOID7 recreation.
 - Known risks: Synth Choir candidate may not represent sung lead; lyric syllables are heuristically interpolated from word alignment; small sokuon dropped; notes quantized to mono with 1 tick gaps.
 - Next evidence needed: owner auditions the WAV (ideally compare source 0–10 s), and attach the WAV if audio quality assessment is requested. Keep all audio/MIDI/project artifacts ignored; do not commit private media to repository.
