@@ -1,6 +1,6 @@
 # VOCALOID7 trial + local MCP guide (2026-11-25)
 
-**Status: setup files prepared; Windows trial connection NOT_RUN.** VOCALOID7 trial GUI was shown running, but MCP/native singing has not been tested on the owner's PC. The community bridge is **unofficial**. Its author's validation is not our acceptance evidence.
+**Status (2026-11-25): Owner/Copilot reports Windows VOCALOID7 native MCP connectivity, voicebank enumeration and a 15-second native asa singing WAV render SUCCESS.** This is user-supplied test output, not an independently inspected local file or CI test. See [verification report](VERIFICATION_2026-11-25.md) for exact observations, output metadata and outstanding checks. The community bridge is **unofficial**. Its author's validation alone is not acceptance evidence.
 
 ## Bridge and requirements
 
@@ -32,7 +32,7 @@ The script clones the pinned bridge into ignored private/vocaloid_bridge, passes
 
 ### VS Code Copilot Agent
 
-Open this repository as a trusted local VS Code workspace. The checked-in workspace-root **.mcp.json** uses the current portable Copilot **mcpServers** format and starts **vocaloid7-native** through tools/launch_vocaloid7_mcp.cmd after installation. (The old .vscode/mcp.json servers format is deprecated for the newer Copilot harness.) Start the server in VS Code's MCP management UI and review the tool approval prompt. This config does not install anything. If your Copilot harness requires it, approve workspace MCP trust when asked.
+Open this repository as a trusted local VS Code workspace. The checked-in workspace-root **.mcp.json** declares **vocaloid7-native** as a Windows-local Python stdio process and also declares the **Suno official remote MCP** (`https://api.suno.com/mcp`). The Suno MCP still needs user authorization in the Copilot session; the successful VOCALOID7 tests below do **not** prove that Suno MCP is authenticated or that a real Suno song has been reproduced. (The old .vscode/mcp.json servers format is deprecated for the newer Copilot harness.) Start the server in VS Code's MCP management UI and review the tool approval prompt. This config does not install anything. If your Copilot harness requires it, approve workspace MCP trust when asked.
 
 ### Codex CLI / Codex IDE extension
 
@@ -61,6 +61,8 @@ Read-only first prompt:
     Call vocaloid_status and voicebanks on vocaloid7-native, nothing else.
     Report detected Editor version, installed voicebank list and errors.
     Do not create or change projects, play audio, start a render or close any processes.
+
+**Test outcome (2026-11-25):** Copilot reported `vocaloid_status` and `voicebanks` passed for VOCALOID7 7.0.1.1, asa 7.0.0. A short original-score test produced a 15.0 s, 44.1 kHz mono 16-bit PCM native WAV (peak 0.3560, RMS 0.0807), with 20 notes at 80 BPM and a `.vpr` project. Files have not been independently retrieved or listened to. The canonical Suno URL https://suno.com/s/RVDcj9JvsVPCWJGu has **not** yet been synthesized. Exact evidence and pending checks: [verification report](VERIFICATION_2026-11-25.md).
 
 **Isolation:** VOCALOID_WORKSPACE points to private/vocaloid_bridge, not this main repository. The third-party bridge cleans older temporary output files in its own workspace; review and copy final media somewhere permanent before cleanup. private/ and output/ are ignored by Git.
 
