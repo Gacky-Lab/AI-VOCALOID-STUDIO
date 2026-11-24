@@ -28,6 +28,14 @@ A proposed automated music production architecture integrating Suno Studio, Hats
 
 Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID score and singing WAV → REAPER/VST3 → quality checks → WAV/FLAC/MP3.
 
+## Executable Phase-0 interfaces（2026-11-24）
+
+実際に実行できる**MIDI→音符候補（Mido）**、歌詞Handoff v1の照合、2種のJSON Schema、オフライン自動テストを追加しました。ここで得られる音符候補は**歌詞・モーラ未整列**であり、完成したSong IRやVOCALOID歌唱音声とは異なります。
+
+- [公開IFの根拠と検証状況](docs/INTERFACES_VERIFIED_2026-11-24.md)
+- [15秒の合成MIDIで試す](docs/PHASE0_OFFLINE.md)
+- [Actionsの実行結果](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/actions)
+
 ## Documents / 公開資料
 
 - [Integrated design specification (Japanese)](docs/design.md) — 統合設計仕様書、詳細仕様、試験計画、データ契約、可視化契約。

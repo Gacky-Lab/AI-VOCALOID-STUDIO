@@ -1,0 +1,21 @@
+# Do not publish user media, licenses or run evidence
+work/
+input/
+output/
+logs/
+*.wav
+*.mp3
+*.flac
+*.mid
+*.vpr
+*.vsqx
+*.vprx
+*.rpp
+*.env
+.env.*
+__pycache__/
+*.py[cod]
+*.sqlite
+private/
+raw-listener-data/
+!tests/fixtures/*.mid
