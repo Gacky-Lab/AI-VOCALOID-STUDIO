@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "vocaloid7-native": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/private/vocaloid_bridge/.venv/Scripts/python.exe",
+      "args": [
+        "-m",
+        "vocaloid_bridge"
+      ],
+      "env": {
+        "VOCALOID_WORKSPACE": "${workspaceFolder}/private/vocaloid_bridge",
+        "PYTHONPATH": "${workspaceFolder}/private/vocaloid_bridge",
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}
