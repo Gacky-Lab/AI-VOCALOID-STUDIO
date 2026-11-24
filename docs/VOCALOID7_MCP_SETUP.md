@@ -32,7 +32,7 @@ The script clones the pinned bridge into ignored private/vocaloid_bridge, passes
 
 ### VS Code Copilot Agent
 
-Open this repository as a trusted local VS Code workspace. The checked-in .vscode/mcp.json config is ready to start **vocaloid7-native** after installation. Start the server in VS Code's MCP management UI and review the tool approval prompt. This config does not install anything.
+Open this repository as a trusted local VS Code workspace. The checked-in workspace-root **.mcp.json** uses the current portable Copilot **mcpServers** format and starts **vocaloid7-native** through tools/launch_vocaloid7_mcp.cmd after installation. (The old .vscode/mcp.json servers format is deprecated for the newer Copilot harness.) Start the server in VS Code's MCP management UI and review the tool approval prompt. This config does not install anything. If your Copilot harness requires it, approve workspace MCP trust when asked.
 
 ### Codex CLI / Codex IDE extension
 
