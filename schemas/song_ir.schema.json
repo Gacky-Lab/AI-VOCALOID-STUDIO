@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "song_ir",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "song_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "sample_rate_hz": {
+      "const": 48000
+    },
+    "duration_samples": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ppq": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "tempo_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "microseconds_per_quarter": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "tick",
+          "microseconds_per_quarter"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "meter_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "numerator": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "denominator": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "tick",
+          "numerator",
+          "denominator"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "moras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+          },
+          "reading": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "occurrence": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "id",
+          "reading",
+          "source_start",
+          "source_end",
+          "occurrence"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+          },
+          "role": {
+            "enum": [
+              "lead_vocal",
+              "harmony",
+              "double"
+            ]
+          },
+          "voice_id": {
+            "const": "hatsune_miku_v6"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+                },
+                "pitch_midi": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 127
+                },
+                "start_sample": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end_sample": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "lyric_surface": {
+                  "type": "string"
+                },
+                "lyric_kana": {
+                  "type": "string"
+                },
+                "lyric_span_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+                  },
+                  "minItems": 1
+                },
+                "phonemes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "symbol": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "start_sample": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "end_sample": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    },
+                    "required": [
+                      "symbol",
+                      "start_sample",
+                      "end_sample"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 0
+                },
+                "confidence": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "review_status": {
+                  "enum": [
+                    "pending",
+                    "accepted",
+                    "corrected",
+                    "rejected"
+                  ]
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "id",
+                "pitch_midi",
+                "start_sample",
+                "end_sample",
+                "lyric_surface",
+                "lyric_kana",
+                "lyric_span_ids",
+                "phonemes",
+                "confidence",
+                "review_status",
+                "sources"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "curves": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "parameter": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "points": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "sample": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "value": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "sample",
+                      "value"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "parameter",
+                "points"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "role",
+          "voice_id",
+          "notes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "song_id",
+    "sample_rate_hz",
+    "duration_samples",
+    "ppq",
+    "tempo_map",
+    "meter_map",
+    "moras",
+    "tracks"
+  ],
+  "additionalProperties": false
+}

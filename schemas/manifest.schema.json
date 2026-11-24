@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "manifest",
+  "type": "object",
+  "properties": {
+    "song_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "service": {
+          "const": "suno"
+        },
+        "song_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "project_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "service",
+        "song_id",
+        "project_id"
+      ],
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "generation_plan": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commercial_use_status": {
+          "enum": [
+            "pending_review",
+            "confirmed",
+            "denied"
+          ]
+        },
+        "evidence_ref": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "generation_plan",
+        "commercial_use_status"
+      ],
+      "additionalProperties": false
+    },
+    "timeline": {
+      "type": "object",
+      "properties": {
+        "sample_rate_hz": {
+          "const": 48000
+        },
+        "tempo_mode": {
+          "enum": [
+            "fixed",
+            "variable"
+          ]
+        },
+        "bpm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "meter": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 1
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "sample_rate_hz",
+        "tempo_mode",
+        "bpm",
+        "meter"
+      ],
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "vocal_audio": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "vocal_midi": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "instrumental": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "lyrics": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "original": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "stems": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+              },
+              "offset_samples": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "instrument_midi": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+              },
+              "offset_samples": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "lyric_timing": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+            },
+            "offset_samples": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "vocal_audio",
+        "lyrics"
+      ],
+      "additionalProperties": false
+    },
+    "production": {
+      "type": "object",
+      "properties": {
+        "voice": {
+          "const": "hatsune_miku_v6"
+        },
+        "mode": {
+          "enum": [
+            "original",
+            "hybrid",
+            "remix",
+            "rebuild"
+          ]
+        },
+        "profile": {
+          "type": "string",
+          "minLength": 1
+        },
+        "allow_audio_only": {
+          "type": "boolean"
+        },
+        "replacements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "stem_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+              },
+              "midi_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+              },
+              "template_track_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+              },
+              "preset_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "stem_id",
+              "midi_id",
+              "template_track_id",
+              "preset_ref"
+            ]
+          }
+        }
+      },
+      "required": [
+        "voice",
+        "mode",
+        "profile"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "song_id",
+    "title",
+    "language",
+    "source",
+    "rights",
+    "timeline",
+    "assets",
+    "production"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "properties": {
+        "assets": {
+          "anyOf": [
+            {
+              "required": [
+                "instrumental"
+              ]
+            },
+            {
+              "required": [
+                "stems"
+              ],
+              "properties": {
+                "stems": {
+                  "minProperties": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "timeline": {
+            "properties": {
+              "tempo_mode": {
+                "const": "fixed"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "timeline": {
+            "properties": {
+              "bpm": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "production": {
+            "required": [
+              "allow_audio_only"
+            ],
+            "properties": {
+              "allow_audio_only": {
+                "const": true
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "assets": {
+            "required": [
+              "vocal_midi"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "production": {
+            "properties": {
+              "mode": {
+                "const": "hybrid"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "production": {
+            "required": [
+              "replacements"
+            ]
+          },
+          "assets": {
+            "required": [
+              "stems",
+              "instrument_midi"
+            ],
+            "properties": {
+              "stems": {
+                "minProperties": 1
+              },
+              "instrument_midi": {
+                "minProperties": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

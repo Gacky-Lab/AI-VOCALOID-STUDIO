@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reaper_job",
+  "type": "object",
+  "properties": {
+    "song_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sample_rate_hz": {
+      "const": 48000
+    },
+    "duration_samples": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "template_rpp": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+    },
+    "output_rpp": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+    },
+    "output_wav": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+    },
+    "tempo_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "microseconds_per_quarter": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "tick",
+          "microseconds_per_quarter"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+          },
+          "kind": {
+            "enum": [
+              "audio",
+              "midi"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+          },
+          "start_sample": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "gain_db": {
+            "type": "number",
+            "minimum": -120,
+            "maximum": 24
+          },
+          "pan": {
+            "type": "number",
+            "minimum": -1,
+            "maximum": 1
+          },
+          "muted": {
+            "type": "boolean"
+          },
+          "template_track_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+          },
+          "preset_ref": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "path",
+          "start_sample",
+          "gain_db",
+          "pan",
+          "muted",
+          "template_track_id",
+          "preset_ref"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "ppq": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "meter_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "numerator": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "denominator": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "tick",
+          "numerator",
+          "denominator"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "song_id",
+    "run_id",
+    "attempt",
+    "sample_rate_hz",
+    "duration_samples",
+    "template_rpp",
+    "output_rpp",
+    "output_wav",
+    "tempo_map",
+    "tracks",
+    "ppq",
+    "meter_map"
+  ],
+  "additionalProperties": false
+}

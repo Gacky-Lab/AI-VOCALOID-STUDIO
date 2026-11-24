@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "state",
+  "type": "object",
+  "properties": {
+    "song_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "status": {
+      "enum": [
+        "NEW",
+        "INGESTED",
+        "ALIGNED",
+        "SCORE_READY",
+        "VOCAL_RENDERED",
+        "MIXED",
+        "QC_PASSED",
+        "APPROVED",
+        "NEEDS_REVIEW",
+        "WAITING_MANUAL",
+        "FAILED"
+      ]
+    },
+    "last_completed": {
+      "enum": [
+        "NEW",
+        "INGESTED",
+        "ALIGNED",
+        "SCORE_READY",
+        "VOCAL_RENDERED",
+        "MIXED",
+        "QC_PASSED",
+        "APPROVED"
+      ]
+    },
+    "resume_stage": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "input_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "settings_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "error_code": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "song_id",
+    "run_id",
+    "status",
+    "last_completed",
+    "resume_stage",
+    "attempt",
+    "input_hash",
+    "settings_hash",
+    "error_code",
+    "updated_at"
+  ],
+  "additionalProperties": false
+}
