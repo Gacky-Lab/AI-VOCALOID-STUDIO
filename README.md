@@ -39,7 +39,7 @@ Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID sco
 
 ## 接続方式を実測状況で層別
 
-[推奨・条件付き・代替・不採用の選定表とFail-Closed選定コード](docs/INTERFACE_SELECTION.md)を追加。実機の成功証拠がなければ`BLOCKED`とし、仮のプロファイルを渡してもWindows実機の動作成功とは表示しません。
+[推奨・条件付き・代替・不採用の選定表とFail-Closed選定コード](docs/INTERFACE_SELECTION.md)、[Windows読み取り専用環境チェック](docs/ENVIRONMENT_PREFLIGHT.md)を追加。実機の成功証拠がなければ`BLOCKED`とし、仮のプロファイルを渡してもWindows実機の動作成功とは表示しません。
 
 ## Documents / 公開資料
 
