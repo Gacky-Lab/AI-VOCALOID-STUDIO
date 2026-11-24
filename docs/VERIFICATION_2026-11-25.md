@@ -127,3 +127,36 @@ This **supersedes older blockers in section 5** about not knowing the canonical 
 3. Determine which MIDI notes belong to the lead vocal, compare against vocal stem and word timing; manually validate tricky Japanese kana.
 4. Render a first 15–30-second source-matched asa phrase, review the actual WAV and timing, then proceed with whole song.
 5. Archive stdout/stderr, actual output paths and checksums locally; track extra metered operations under the user's approval limit. Never count synthetic song test as this target's finished recreation.
+
+---
+
+## 8. Owner-executed standalone MCP read-only probe: VERIFIED BY RAW CONSOLE OUTPUT
+
+The user ran:
+
+```powershell
+cd $HOME\AI-VOCALOID-STUDIO
+git pull
+& .\private\vocaloid_bridge\.venv\Scripts\python.exe .\tools\probe_vocaloid7_direct.py
+```
+
+The full pasted PowerShell result ended in:
+
+```text
+MCP_INITIALIZED: true
+MCP_TOOL_COUNT: 41
+REQUIRED_TOOLS_PRESENT: True
+vocaloid_status: ... backend=native-vsm, version=7.0.1.1, product=VOCALOID7
+voicebanks: ... name=asa, version=7.0.0, is_ai=true, available_in_sequence=true, synthesizable_version=true
+RESULT: PASS (local stdio MCP direct calls)
+```
+
+Additional confirmed details: private workspace `C:\Users\smily\AI-VOCALOID-STUDIO\private\vocaloid_bridge`; bridge MCP version `0.30.0`; 0 active sessions and 0 render cache bytes at query time. The installed asa voicebank has `comp_id=BXHPECHANDRW3XEL`, `kind=Dnn`, and 3 voice types. These are **direct local MCP calls** independent of the Copilot Agent session's tool-visibility issue.
+
+**Outcome:** Direct Windows Python→MCP stdio→VOCALOID7 native host handshake and actual `vocaloid_status` / `voicebanks` calls are now directly evidenced in the pasted console output. There were no project writes or audio renders during this probe. This result does not prove the selected Suno song was yet rendered.
+
+### Latest Suno source status
+
+Suno MIDI transcription for target UUID `f60cd638-8c59-428c-97c2-1eabd86b6a76` returned `status=ok` again (download URL is ephemeral). Stem group `stemgrp_7e71d95c-0ceb-4c15-bf17-31788ecc02b6` returned `status=complete` with **both vocal and both instrumental stem takes complete**, confirmed via ChatGPT-side Suno MCP. Local copies on Windows have **not** been verified; these results do not resolve the Copilot tool-discovery gap.
+
+Next task: acquire the exact MIDI and stem files into an ignored local directory without checking source media or auth tokens into Git; inspect/select the vocal melody from MIDI, align original lyrics and synthesize a short phrase with the proven direct stdio transport.
