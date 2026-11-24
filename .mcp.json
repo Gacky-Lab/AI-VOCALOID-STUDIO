@@ -2,13 +2,16 @@
   "mcpServers": {
     "vocaloid7-native": {
       "type": "stdio",
-      "command": "cmd.exe",
+      "command": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge\\.venv\\Scripts\\python.exe",
       "args": [
-        "/d",
-        "/c",
-        "tools\\launch_vocaloid7_mcp.cmd"
+        "-m",
+        "vocaloid_bridge"
       ],
-      "cwd": ".",
+      "env": {
+        "VOCALOID_WORKSPACE": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge",
+        "PYTHONPATH": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge",
+        "PYTHONUTF8": "1"
+      },
       "tools": [
         "*"
       ]
