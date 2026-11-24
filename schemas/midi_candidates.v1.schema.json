@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MIDI candidate pre-alignment contract (not Song IR)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_contract_version",
+    "alignment_status",
+    "song_id",
+    "source_midi_sha256",
+    "sample_rate_hz",
+    "ppq",
+    "selected_track_index",
+    "duration_samples",
+    "tempo_map",
+    "meter_map",
+    "notes"
+  ],
+  "properties": {
+    "candidate_contract_version": {
+      "const": "0.1.0"
+    },
+    "alignment_status": {
+      "const": "needs_lyric_and_voice_review"
+    },
+    "song_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+    },
+    "source_midi_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sample_rate_hz": {
+      "const": 48000
+    },
+    "ppq": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "selected_track_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "duration_samples": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "tempo_map": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tick",
+          "microseconds_per_quarter"
+        ],
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "microseconds_per_quarter": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "meter_map": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tick",
+          "numerator",
+          "denominator"
+        ],
+        "properties": {
+          "tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "numerator": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "denominator": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pitch_midi",
+          "channel",
+          "velocity",
+          "start_tick",
+          "end_tick",
+          "start_sample",
+          "end_sample",
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "pitch_midi": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127
+          },
+          "channel": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 15
+          },
+          "velocity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 127
+          },
+          "start_tick": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_tick": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "start_sample": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_sample": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "lyric_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contract_version",
+        "song_id",
+        "lyric_version_id",
+        "lyrics_sha256"
+      ],
+      "properties": {
+        "contract_version": {
+          "const": "1.0.0"
+        },
+        "song_id": {
+          "type": "string"
+        },
+        "lyric_version_id": {
+          "type": "string"
+        },
+        "lyrics_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    }
+  }
+}
