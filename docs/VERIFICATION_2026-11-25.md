@@ -160,3 +160,16 @@ Additional confirmed details: private workspace `C:\Users\smily\AI-VOCALOID-STUD
 Suno MIDI transcription for target UUID `f60cd638-8c59-428c-97c2-1eabd86b6a76` returned `status=ok` again (download URL is ephemeral). Stem group `stemgrp_7e71d95c-0ceb-4c15-bf17-31788ecc02b6` returned `status=complete` with **both vocal and both instrumental stem takes complete**, confirmed via ChatGPT-side Suno MCP. Local copies on Windows have **not** been verified; these results do not resolve the Copilot tool-discovery gap.
 
 Next task: acquire the exact MIDI and stem files into an ignored local directory without checking source media or auth tokens into Git; inspect/select the vocal melody from MIDI, align original lyrics and synthesize a short phrase with the proven direct stdio transport.
+
+
+---
+
+## 9. Executable local Suno-to-asa preview runner added (NOT YET TESTED)
+
+- Script: \`tools/render_suno_v7_preview.py\`.
+- Input: Suno MIDI URL obtained by already-completed \`audio_midi\`, or a local MIDI file.
+- The local Windows script downloads that MIDI (without initiating a new Suno conversion), checks the Synth Choir instrument track and interpolates the Suno-aligned opening lyric reading into candidate pitches, then calls the **previously validated direct stdio MCP** to do \`score_compose\`, \`project_ai_adjust\`, \`project_audio mixdown\`, \`project_save\` and \`project_close\`.
+- Intended output: ignored \`output/suno_v7_previews/<run-id>/\` directory with source MIDI, draft/full editable VPRX and asa singing WAV plus \`verification.json\`.
+- **This is an approximate first 9.4-second prototype, not the entire original song and not proven melody recognition.** The Synth Choir track is a heuristic candidate, word alignment doesn't specify pitch, and small sokuon handling is approximate. It may fail, and source fidelity needs human auditory review.
+- **No assertion of successful local execution** until the owner runs this on Windows and provides actual outputs.
+- Signed Suno download URLs expire; do not commit them to GitHub, and do not display them in logs. The raw MIDI/WAV is private local output.
