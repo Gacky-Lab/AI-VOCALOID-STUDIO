@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "vocaloid7-native": {
+      "type": "stdio",
+      "command": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "vocaloid_bridge"
+      ],
+      "env": {
+        "VOCALOID_WORKSPACE": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge",
+        "PYTHONPATH": "${USERPROFILE}\\AI-VOCALOID-STUDIO\\private\\vocaloid_bridge",
+        "PYTHONUTF8": "1"
+      },
+      "tools": [
+        "*"
+      ]
+    },
+    "suno": {
+      "type": "http",
+      "url": "https://api.suno.com/mcp",
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}

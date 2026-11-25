@@ -3,11 +3,11 @@
 **AIボカロ自動制作基盤 / AI-powered VOCALOID production pipeline**  
 Designed by **Gacky (Gacky-Lab)** | Concept announced: 2026-11-24 (JST)
 
-Sunoで生成した楽曲を、純正初音ミク V6（VOCALOID6）で再歌唱し、歌詞同期・調声・楽器置換・編曲・ミックス・品質検査まで一貫処理する制作基盤の設計プロジェクトです。
+Sunoで生成した楽曲をVOCALOIDで再歌唱し、歌詞同期・調声・楽器置換・編曲・ミックス・品質検査まで一貫処理する制作基盤です。**Windows実機の技術検証はVOCALOID7体験版＋asa歌声で実施**しており、初音ミク V6を用いた完成パイプラインは今後の目標です。
 
 A proposed automated music production architecture integrating Suno Studio, Hatsune Miku V6, VOCALOID6, VS Code, GitHub Copilot, Python, MCP, REAPER and VST3. The project explores reproducible music production using a common Song IR (JSON), independent production stages, quality gates and recovery paths.
 
-**Status: Design / pre-implementation.** The end-to-end music engine has not yet been implemented or validated in the target Windows environment. One-click production is a goal, not an existing feature.
+**Status (2026-11-25): Phase-0 implemented; native Suno MIDI → VOCALOID7 asa 10-second proof-of-concept verified on Windows.** The user ran the direct stdio MCP process, which generated a real 44.1 kHz singing WAV and editable `.vprx`. This does **not** establish accurate reproduction of the Suno lead melody or an automated full-song production engine. One-click full-length production and Hatsune Miku integration remain goals.
 
 ![AI VOCALOID STUDIO architecture](images/architecture.png)
 
@@ -15,18 +15,31 @@ A proposed automated music production architecture integrating Suno Studio, Hats
 
 | Layer | Design |
 | --- | --- |
-| Input | Suno Studio: manual MIDI, WAV, stems and lyrics export; optional MCP integration |
+| Input | Verified official Suno MCP MIDI retrieval and lyrics alignment for a user-owned track; local MIDI caching; stems retrieved in Suno library |
 | Development | VS Code + GitHub Copilot |
 | Execution | Python Production Engine; CLI, MCP and UI Automation as appropriate |
 | Analysis | Vocal2Midi, RMVPE, mido |
 | Data contract | Song IR (JSON): notes, lyrics, phonemes, pitch, tempo and time |
-| Singing | VOCALOID6 + Hatsune Miku V6; unofficial MCP / UI Automation to be tested; manual editor fallback |
+| Singing | Verified VOCALOID7 7.0.1.1 native stdio MCP + installed `asa` AI voice on Windows; Hatsune Miku V6 and production-grade full-song flow not yet verified |
 | Arrangement | REAPER (ReaScript / CLI), VST3 instruments |
 | Quality | Lyrics and timing checks, human listening, logging, recovery and reproducibility |
 
 ## Data flow / 制作フロー
 
-Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID score and singing WAV → REAPER/VST3 → quality checks → WAV/FLAC/MP3.
+**Proved limited path:** Suno MIDI + word alignment → heuristic opening vocal candidate (24 notes) → VOCALOID7 native asa synthesis → real 10-second WAV + editable VPRX. **Proposed full path:** Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID score and singing WAV → REAPER/VST3 → quality checks → WAV/FLAC/MP3.
+
+## Native VOCALOID7 PoC verified（2026-11-25）
+
+Windowsの実機で、オフィシャルSuno MCPから取得した「何もなかったように青い」のMIDIを再利用し、直接stdioのVOCALOID7 MCP経由でasaの歌唱データを合成しました。**実音声のある10.0秒WAV**（44.1kHz/mono/16-bit）と**編集可能なVPRX**を出力し、MCPの`score_compose` → `project_edit` → `project_ai_adjust` → `project_audio mixdown` → `project_save`まで動作を確認しています。対象は原曲196.4秒のうち冒頭の短い試験区間です。
+
+**検証範囲の注意:** MIDIの`Synth Choir`トラックを歌声候補とする試作です。原曲の歌メロを正しく抽出できているか、歌詞・音高・音色の忠実度は**未検証**。全曲自動変換も未実装です。録音・プロジェクト・MIDI本体は`.gitignore`で除外し、GitHubには載せません。
+
+- [Windowsの実行記録・音声のSHA-256・制限事項](docs/VERIFICATION_2026-11-25.md)
+- [実行スクリプト（取得済みMIDI再利用：`--reuse-midi`）](tools/render_suno_v7_preview.py)
+- [直接stdio MCP接続検査](tools/probe_vocaloid7_direct.py)
+- [VOCALOID7 MCP構築手順](docs/VOCALOID7_MCP_SETUP.md)
+- [Suno実曲からVOCALOID7に変換する試験仕様](docs/SUNO_TO_VOCALOID7_REAL_SONG.md)
+- [Draft PR #1：mainへの統合は未実施](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/pull/1)
 
 ## Executable Phase-0 interfaces（2026-11-24）
 
@@ -61,6 +74,7 @@ Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID sco
 ## Project history / 公開記録
 
 - 2026-11-24: [Initial concept announcement on X (Gacky)](https://x.com/VG4HsenZZY/status/2125190195372794254).
+- 2026-11-25: Verified Suno MIDI → native VOCALOID7 trial asa 10-second WAV and editable VPRX on user's Windows PC (feature branch, not merged).
 - This repository collects the design-stage documentation. GitHub publication and subsequent changes are recorded by commit history. The attached specification preserves the original pre-publication wording.
 
 ## Author / Links
