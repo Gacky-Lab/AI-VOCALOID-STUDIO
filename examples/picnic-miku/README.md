@@ -1,5 +1,7 @@
 # ピクニック・オン・ムーン ｜ 初音ミクV6 実機制作例
 
+**[試聴プレーヤーを開く（フル・サビ・調声前後）](https://gacky-lab.github.io/AI-VOCALOID-STUDIO/)**
+
 [ミク版フルを聴く（MP3・3分48秒）](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/codex/picnic-miku-listening/examples/picnic-miku/full-mix.mp3) · [原曲をSunoで聴く](https://suno.com/song/07a71f55-32c9-40bd-8c00-d95b62ab8fbc) · [調声前後を聴く（WAV）](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/codex/picnic-miku-listening/examples/picnic-miku/tuning-comparison.wav)
 
 原曲「ピクニック・オン・ムーン (Cover)」の伴奏に、VOCALOID7で合成した初音ミクV6の歌唱を合わせた研究用の試聴版です。主旋律とユニゾンにはMIKU ORIGINAL、ハモリにはMIKU SOFTを使用しています。[歌詞と音符を開く（VOCALOID編集譜面）](./miku-expression.vprx)
