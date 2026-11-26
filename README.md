@@ -7,7 +7,9 @@ Sunoで生成した楽曲を、純正初音ミク V6（VOCALOID6）で再歌唱�
 
 A proposed automated music production architecture integrating Suno Studio, Hatsune Miku V6, VOCALOID6, VS Code, GitHub Copilot, Python, MCP, REAPER and VST3. The project explores reproducible music production using a common Song IR (JSON), independent production stages, quality gates and recovery paths.
 
-**Status: Design / pre-implementation.** The end-to-end music engine has not yet been implemented or validated in the target Windows environment. One-click production is a goal, not an existing feature.
+**Status: Phase-0 offline interfaces implemented; end-to-end production NOT_RUN.** MIDI candidate extraction, lyric handoff and REAPER script generation have offline test evidence. A separate [owner-reported VOCALOID7 trial / asa synthesis draft PR](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/pull/1) is not independently reproduced or included in the alpha release. The original V6/Miku design remains a target, not an achieved feature. One-click Windows production is unverified.
+
+現在はオフラインIFの部分実装段階です。VOCALOID7体験版の本人報告と、初音ミクでの総合制作の実証は区別します。
 
 ![AI VOCALOID STUDIO architecture](images/architecture.png)
 
@@ -71,3 +73,6 @@ Suno → MIDI/WAV/lyrics → analysis and alignment → Song IR → VOCALOID sco
 ## Scope and rights / 権利・注意事項
 
 This is an independent design project, not an official product or partnership with Suno, Yamaha, Crypton Future Media, GitHub, Cockos or other tool providers. Product names and character imagery belong to their respective rights holders. No voicebank, commercial software, third-party music or access credentials are distributed here. Use only legally authorized materials. No blanket reuse license is granted by this initial documentation release; third-party material remains subject to its own terms.
+
+
+Portfolio-level research status / 研究状態の一覧: [Research status](https://github.com/Gacky-Lab/Gacky-Lab/blob/main/docs/governance/RESEARCH_STATUS.md) · [Market-to-validation traceability](https://github.com/Gacky-Lab/Gacky-Lab/blob/main/docs/governance/RESEARCH_TRACEABILITY.md). The historical specification and scoped verification results remain authoritative for their original dates.
