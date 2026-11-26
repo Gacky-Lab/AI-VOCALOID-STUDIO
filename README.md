@@ -2,6 +2,8 @@
 
 [原唱WAVからの制作工程・周波数Excelの受入条件](docs/VOCAL_PRODUCTION_ACCEPTANCE.md)
 
+[日本語曲「キミガオトす星のカケラ」の7〜12秒を聴き比べ、全曲の音符間隔を再計算する](docs/case-studies/kakera/)
+
 **AIボカロ自動制作基盤 / AI-powered VOCALOID production pipeline**  
 Designed by **Gacky (Gacky-Lab)** | Concept announced: 2026-11-24 (JST)
 
