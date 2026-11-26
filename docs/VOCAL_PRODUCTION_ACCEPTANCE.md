@@ -32,3 +32,5 @@ python tools/verify_frequency_book.py audit.xlsx before.csv after.csv --frames 3
 5 msは推定値を読む刻みであり、音程の正解や音響的な時間分解能を保証しない。別声部や倍音の候補、原唱の残留、歌詞の聞き取りは人間の試聴判断を残す。ローカルでの検証と、素材をGitHub・YouTubeへ公開できるかは別々に記録する。
 
 [システム設計の品質ゲート](design.md) · [英語曲の実機検証](case-studies/morning/README.md)
+
+版ごとの記録には[制作自己チェックシート](VOCAL_SELF_CHECK.md)を使う。
