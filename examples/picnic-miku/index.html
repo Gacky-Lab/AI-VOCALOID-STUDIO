@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ピクニック・オン・ムーンを初音ミクV6で再歌唱。フル版とサビの調声前後を試聴できます。">
+<meta name="twitter:card" content="summary">
+<title>ピクニック・オン・ムーン ｜ 初音ミクV6 試聴</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#101722;color:#f1f5f4;font:1rem/1.7 "Segoe UI",sans-serif}
+main{max-width:44rem;margin:auto;padding:clamp(2rem,8vw,6rem) 1.3rem}h1{font-size:clamp(2rem,7vw,3.5rem);line-height:1.18;margin:.3em 0}h2{font-size:1.15rem}
+section{border-top:1px solid #445362;margin:2rem 0;padding-top:.7rem}audio{width:100%}a{color:#9fe5d8}p{color:#d1dcdf}button{font:inherit;padding:.35rem .8rem;background:#cbf7e9;color:#14392e;border:0;border-radius:.4rem;cursor:pointer}
+</style>
+<main>
+<p>Gacky-Lab / 初音ミクV6</p>
+<h1>ピクニック・オン・ムーン</h1>
+<section><h2>ミク版フル · 3:48</h2>
+<audio id="full" controls preload="metadata" src="full-mix.mp3">音源は下のリンクから開けます。</audio>
+<button type="button" id="chorus">サビから聴く（0:54.6）</button>
+<p><a href="https://suno.com/song/07a71f55-32c9-40bd-8c00-d95b62ab8fbc">Sunoで原曲を聴く</a> · <a href="full-mix.mp3">MP3を開く</a></p></section>
+<section><h2>サビの調声前後</h2>
+<p>同じ6.15秒を、旧ミク版 → 短い間 → 今回のミク版の順に再生します。聴き比べやすいよう、音量をそろえています。</p>
+<audio id="compare" controls preload="metadata" src="tuning-comparison.wav"></audio></section>
+<p><a href="https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/tree/codex/picnic-miku-listening/examples/picnic-miku">制作手順と編集用のVOCALOID譜面</a></p>
+</main>
+<script>
+const full = document.querySelector('#full');
+const compare = document.querySelector('#compare');
+full.addEventListener('play', () => compare.pause());
+compare.addEventListener('play', () => full.pause());
+document.querySelector('#chorus').addEventListener('click', () => {
+  full.currentTime = 54.6;
+  full.play().catch(() => full.focus());
+});
+</script>
+</html>
