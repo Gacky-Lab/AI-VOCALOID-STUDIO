@@ -5,6 +5,12 @@ Designed by **Gacky (Gacky-Lab)** | Concept announced: 2026-11-24 (JST)
 
 Sunoで生成した楽曲を、純正初音ミク V6（VOCALOID6）で再歌唱し、歌詞同期・調声・楽器置換・編曲・ミックス・品質検査まで一貫処理する制作基盤の設計プロジェクトです。
 
+## We Flowed Past the Morning / Gacky-Lab feat. 初音ミク
+
+[![We Flowed Past the Morning（画像をクリックしてYouTubeで歌詞MVを再生）](docs/case-studies/morning/mv-cover.jpg)](https://youtu.be/fWGwUCiSeAE)
+
+Sunoの歌声から音符を取り、初音ミクで歌い直した英詞曲です。[歌詞MVを観る](https://youtu.be/fWGwUCiSeAE) · [1分46秒の原唱・ミク修正前・修正後を聴き比べる](docs/case-studies/morning/we-flowed/README.md)
+
 A proposed automated music production architecture integrating Suno Studio, Hatsune Miku V6, VOCALOID6, VS Code, GitHub Copilot, Python, MCP, REAPER and VST3. The project explores reproducible music production using a common Song IR (JSON), independent production stages, quality gates and recovery paths.
 
 **Status:** Phase-0 offline interfaces are covered by the alpha release. A separate Windows case study documents a locally rendered English Hatsune Miku performance, its editable score, full-song frequency audit, mix and lyric MV. Independent end-to-end reproduction remains open.

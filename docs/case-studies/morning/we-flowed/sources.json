@@ -1,0 +1,30 @@
+{
+  "reference": {
+    "source": "miku_we_flowed_01/vocals.wav",
+    "frames_full": 9657600
+  },
+  "before": {
+    "source": "morning_miku_frequency_audit/output/final-voices.wav",
+    "frames_full": 9391674
+  },
+  "after": {
+    "source": "morning_miku_hook_continuity/output/voices.wav",
+    "frames_full": 9391674
+  },
+  "instrumental": {
+    "source": "miku_we_flowed_01/instrumental.wav",
+    "frames_full": 9657600
+  },
+  "band": {
+    "source": "morning_miku_band_aware/band-room.wav",
+    "frames_full": 9657600
+  },
+  "mix-before": {
+    "source": "morning_miku_context_master/morning-full.wav",
+    "frames_full": 9657600
+  },
+  "mix-after": {
+    "source": "morning_miku_hook_continuity/morning-full.wav",
+    "frames_full": 9657600
+  }
+}

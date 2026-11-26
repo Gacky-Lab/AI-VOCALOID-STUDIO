@@ -1,0 +1,6928 @@
+[
+  {
+    "note_id": 305,
+    "start_s": 96.54270833333334,
+    "end_s": 96.85729166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "Who",
+      "phoneme": "h u:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 92681,
+      "duration": 302,
+      "number": 61,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.24926422309875484,
+        "amplitudeStart": 0.6,
+        "amplitudeEnd": 0.36151885096232095,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -0.1
+        },
+        {
+          "pos": 10,
+          "value": -39.4
+        },
+        {
+          "pos": 26,
+          "value": -89.6
+        },
+        {
+          "pos": 42,
+          "value": -91.4
+        },
+        {
+          "pos": 58,
+          "value": -34.6
+        },
+        {
+          "pos": 74,
+          "value": 76.1
+        },
+        {
+          "pos": 90,
+          "value": 215.4
+        },
+        {
+          "pos": 106,
+          "value": 377.5
+        },
+        {
+          "pos": 122,
+          "value": 480.0
+        },
+        {
+          "pos": 138,
+          "value": 480.0
+        },
+        {
+          "pos": 154,
+          "value": 480.0
+        },
+        {
+          "pos": 169,
+          "value": 480.0
+        },
+        {
+          "pos": 179,
+          "value": 480.0
+        },
+        {
+          "pos": 189,
+          "value": 480.0
+        },
+        {
+          "pos": 199,
+          "value": 480.0
+        },
+        {
+          "pos": 209,
+          "value": 480.0
+        },
+        {
+          "pos": 219,
+          "value": 480.0
+        },
+        {
+          "pos": 229,
+          "value": 480.0
+        },
+        {
+          "pos": 239,
+          "value": 480.0
+        },
+        {
+          "pos": 249,
+          "value": 480.0
+        },
+        {
+          "pos": 259,
+          "value": 480.0
+        },
+        {
+          "pos": 269,
+          "value": 480.0
+        },
+        {
+          "pos": 279,
+          "value": 480.0
+        },
+        {
+          "pos": 289,
+          "value": 480.0
+        },
+        {
+          "pos": 299,
+          "value": 480.0
+        },
+        {
+          "pos": 301,
+          "value": 480.0
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 306,
+    "start_s": 97.07291666666667,
+    "end_s": 97.28020833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "I",
+      "phoneme": "aI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 93190,
+      "duration": 199,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.2373740745160413,
+        "amplitudeStart": 0.30817,
+        "amplitudeEnd": 0.46148,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -55.5
+        },
+        {
+          "pos": 27,
+          "value": -55.5
+        },
+        {
+          "pos": 37,
+          "value": -48.9
+        },
+        {
+          "pos": 53,
+          "value": -18.3
+        },
+        {
+          "pos": 69,
+          "value": -0.9
+        },
+        {
+          "pos": 85,
+          "value": 16.4
+        },
+        {
+          "pos": 101,
+          "value": 19.1
+        },
+        {
+          "pos": 117,
+          "value": -2.2
+        },
+        {
+          "pos": 133,
+          "value": -32.8
+        },
+        {
+          "pos": 149,
+          "value": -39.3
+        },
+        {
+          "pos": 165,
+          "value": -39.4
+        },
+        {
+          "pos": 180,
+          "value": -39.4
+        },
+        {
+          "pos": 188,
+          "value": -39.4
+        },
+        {
+          "pos": 198,
+          "value": -39.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 307,
+    "start_s": 97.28020833333333,
+    "end_s": 97.5,
+    "note": {
+      "isMuted": false,
+      "lyric": "don't",
+      "phoneme": "d @U n t",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 93389,
+      "duration": 211,
+      "number": 66,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.26171,
+        "amplitudeStart": 0.4159,
+        "amplitudeEnd": 0.5755,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -257.3
+        },
+        {
+          "pos": 8,
+          "value": -257.3
+        },
+        {
+          "pos": 24,
+          "value": -254.3
+        },
+        {
+          "pos": 40,
+          "value": -236.9
+        },
+        {
+          "pos": 56,
+          "value": -210.2
+        },
+        {
+          "pos": 72,
+          "value": -168.4
+        },
+        {
+          "pos": 88,
+          "value": -81.0
+        },
+        {
+          "pos": 104,
+          "value": 10.3
+        },
+        {
+          "pos": 120,
+          "value": 114.3
+        },
+        {
+          "pos": 136,
+          "value": 230.5
+        },
+        {
+          "pos": 152,
+          "value": 329.9
+        },
+        {
+          "pos": 168,
+          "value": 380.4
+        },
+        {
+          "pos": 184,
+          "value": 387.1
+        },
+        {
+          "pos": 200,
+          "value": 383.0
+        },
+        {
+          "pos": 210,
+          "value": 382.1
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 308,
+    "start_s": 97.66041666666666,
+    "end_s": 98.034375,
+    "note": {
+      "isMuted": false,
+      "lyric": "know",
+      "phoneme": "n @U",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 93754,
+      "duration": 359,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.19515650442965668,
+        "amplitudeStart": 0.35508,
+        "amplitudeEnd": 0.42407,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 480.0
+        },
+        {
+          "pos": 10,
+          "value": 480.0
+        },
+        {
+          "pos": 26,
+          "value": 480.0
+        },
+        {
+          "pos": 42,
+          "value": 480.0
+        },
+        {
+          "pos": 58,
+          "value": 463.7
+        },
+        {
+          "pos": 74,
+          "value": 387.1
+        },
+        {
+          "pos": 90,
+          "value": 295.1
+        },
+        {
+          "pos": 106,
+          "value": 211.5
+        },
+        {
+          "pos": 122,
+          "value": 133.8
+        },
+        {
+          "pos": 138,
+          "value": 78.1
+        },
+        {
+          "pos": 154,
+          "value": 30.2
+        },
+        {
+          "pos": 170,
+          "value": 6.6
+        },
+        {
+          "pos": 186,
+          "value": -2.1
+        },
+        {
+          "pos": 201,
+          "value": -6.1
+        },
+        {
+          "pos": 215,
+          "value": -7.1
+        },
+        {
+          "pos": 229,
+          "value": -6.2
+        },
+        {
+          "pos": 243,
+          "value": -3.6
+        },
+        {
+          "pos": 257,
+          "value": -6.8
+        },
+        {
+          "pos": 271,
+          "value": -28.7
+        },
+        {
+          "pos": 285,
+          "value": -75.9
+        },
+        {
+          "pos": 299,
+          "value": -86.4
+        },
+        {
+          "pos": 313,
+          "value": -86.4
+        },
+        {
+          "pos": 327,
+          "value": -86.4
+        },
+        {
+          "pos": 341,
+          "value": -86.4
+        },
+        {
+          "pos": 355,
+          "value": -86.4
+        },
+        {
+          "pos": 358,
+          "value": -86.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 309,
+    "start_s": 98.5375,
+    "end_s": 98.740625,
+    "note": {
+      "isMuted": false,
+      "lyric": "Maybe",
+      "phoneme": "m eI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 94596,
+      "duration": 195,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.5226912576317734,
+        "amplitudeStart": 0.601,
+        "amplitudeEnd": 0.6801,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -5.0
+        },
+        {
+          "pos": 10,
+          "value": 1.4
+        },
+        {
+          "pos": 26,
+          "value": 6.2
+        },
+        {
+          "pos": 42,
+          "value": -1.8
+        },
+        {
+          "pos": 58,
+          "value": -3.0
+        },
+        {
+          "pos": 74,
+          "value": -3.2
+        },
+        {
+          "pos": 90,
+          "value": -3.2
+        },
+        {
+          "pos": 106,
+          "value": -2.5
+        },
+        {
+          "pos": 122,
+          "value": -0.5
+        },
+        {
+          "pos": 138,
+          "value": -2.3
+        },
+        {
+          "pos": 154,
+          "value": -23.8
+        },
+        {
+          "pos": 170,
+          "value": -94.5
+        },
+        {
+          "pos": 179,
+          "value": -113.1
+        },
+        {
+          "pos": 194,
+          "value": -113.1
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 310,
+    "start_s": 98.740625,
+    "end_s": 98.93645833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "b i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 94791,
+      "duration": 188,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.76642,
+        "amplitudeStart": 0.4943,
+        "amplitudeEnd": 0.7103,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 102.9
+        },
+        {
+          "pos": 11,
+          "value": 100.1
+        },
+        {
+          "pos": 27,
+          "value": 71.3
+        },
+        {
+          "pos": 43,
+          "value": 17.3
+        },
+        {
+          "pos": 59,
+          "value": -0.4
+        },
+        {
+          "pos": 75,
+          "value": -6.0
+        },
+        {
+          "pos": 91,
+          "value": -6.2
+        },
+        {
+          "pos": 107,
+          "value": -3.0
+        },
+        {
+          "pos": 123,
+          "value": -0.4
+        },
+        {
+          "pos": 139,
+          "value": -11.7
+        },
+        {
+          "pos": 155,
+          "value": -1.9
+        },
+        {
+          "pos": 171,
+          "value": 8.5
+        },
+        {
+          "pos": 187,
+          "value": 20.7
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 311,
+    "start_s": 98.93645833333333,
+    "end_s": 99.17604166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "me",
+      "phoneme": "m i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 94979,
+      "duration": 230,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.74537,
+        "amplitudeStart": 0.64,
+        "amplitudeEnd": 0.6807,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -70.5
+        },
+        {
+          "pos": 10,
+          "value": -74.6
+        },
+        {
+          "pos": 26,
+          "value": -66.6
+        },
+        {
+          "pos": 42,
+          "value": -51.4
+        },
+        {
+          "pos": 58,
+          "value": -49.0
+        },
+        {
+          "pos": 74,
+          "value": -48.3
+        },
+        {
+          "pos": 90,
+          "value": -45.2
+        },
+        {
+          "pos": 106,
+          "value": -33.3
+        },
+        {
+          "pos": 122,
+          "value": -22.8
+        },
+        {
+          "pos": 138,
+          "value": -10.1
+        },
+        {
+          "pos": 154,
+          "value": -0.2
+        },
+        {
+          "pos": 170,
+          "value": -0.9
+        },
+        {
+          "pos": 186,
+          "value": -1.5
+        },
+        {
+          "pos": 202,
+          "value": -5.0
+        },
+        {
+          "pos": 218,
+          "value": -7.7
+        },
+        {
+          "pos": 229,
+          "value": -21.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 312,
+    "start_s": 99.35520833333334,
+    "end_s": 99.575,
+    "note": {
+      "isMuted": false,
+      "lyric": "Maybe",
+      "phoneme": "m eI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 95381,
+      "duration": 211,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.527020113628022,
+        "amplitudeStart": 0.64,
+        "amplitudeEnd": 0.605,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 6.5
+        },
+        {
+          "pos": 7,
+          "value": 0.5
+        },
+        {
+          "pos": 23,
+          "value": 2.0
+        },
+        {
+          "pos": 39,
+          "value": -1.6
+        },
+        {
+          "pos": 55,
+          "value": -3.0
+        },
+        {
+          "pos": 71,
+          "value": -3.4
+        },
+        {
+          "pos": 87,
+          "value": -3.5
+        },
+        {
+          "pos": 103,
+          "value": -5.0
+        },
+        {
+          "pos": 119,
+          "value": -2.5
+        },
+        {
+          "pos": 135,
+          "value": 0.5
+        },
+        {
+          "pos": 151,
+          "value": -0.0
+        },
+        {
+          "pos": 167,
+          "value": -24.1
+        },
+        {
+          "pos": 183,
+          "value": -84.4
+        },
+        {
+          "pos": 199,
+          "value": 9.7
+        },
+        {
+          "pos": 210,
+          "value": 67.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 313,
+    "start_s": 99.575,
+    "end_s": 99.76666666666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "b i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 95592,
+      "duration": 184,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.7444,
+        "amplitudeStart": 0.46927,
+        "amplitudeEnd": 0.33131,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 50.3
+        },
+        {
+          "pos": 10,
+          "value": 43.3
+        },
+        {
+          "pos": 26,
+          "value": 15.6
+        },
+        {
+          "pos": 42,
+          "value": 2.5
+        },
+        {
+          "pos": 58,
+          "value": 4.5
+        },
+        {
+          "pos": 74,
+          "value": 4.7
+        },
+        {
+          "pos": 90,
+          "value": 6.0
+        },
+        {
+          "pos": 106,
+          "value": 0.2
+        },
+        {
+          "pos": 122,
+          "value": -3.6
+        },
+        {
+          "pos": 138,
+          "value": -4.1
+        },
+        {
+          "pos": 152,
+          "value": -4.1
+        },
+        {
+          "pos": 183,
+          "value": -4.1
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 314,
+    "start_s": 99.76666666666667,
+    "end_s": 99.990625,
+    "note": {
+      "isMuted": false,
+      "lyric": "someone",
+      "phoneme": "s V m",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 95776,
+      "duration": 215,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.59853,
+        "amplitudeStart": 0.35042,
+        "amplitudeEnd": 0.728,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 60.8
+        },
+        {
+          "pos": 11,
+          "value": 60.8
+        },
+        {
+          "pos": 27,
+          "value": 52.5
+        },
+        {
+          "pos": 43,
+          "value": 15.5
+        },
+        {
+          "pos": 59,
+          "value": 1.1
+        },
+        {
+          "pos": 75,
+          "value": -2.2
+        },
+        {
+          "pos": 91,
+          "value": -3.9
+        },
+        {
+          "pos": 107,
+          "value": -8.1
+        },
+        {
+          "pos": 123,
+          "value": -16.6
+        },
+        {
+          "pos": 139,
+          "value": -8.8
+        },
+        {
+          "pos": 155,
+          "value": -0.7
+        },
+        {
+          "pos": 171,
+          "value": 0.6
+        },
+        {
+          "pos": 187,
+          "value": -1.6
+        },
+        {
+          "pos": 203,
+          "value": -0.1
+        },
+        {
+          "pos": 214,
+          "value": -6.2
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 315,
+    "start_s": 99.990625,
+    "end_s": 100.18020833333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "w V n",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 95991,
+      "duration": 182,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.7077664996167934,
+        "amplitudeStart": 0.41582,
+        "amplitudeEnd": 0.6476,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 12.6
+        },
+        {
+          "pos": 23,
+          "value": -7.7
+        },
+        {
+          "pos": 33,
+          "value": -20.2
+        },
+        {
+          "pos": 49,
+          "value": -30.7
+        },
+        {
+          "pos": 65,
+          "value": -44.2
+        },
+        {
+          "pos": 81,
+          "value": -49.7
+        },
+        {
+          "pos": 97,
+          "value": -24.9
+        },
+        {
+          "pos": 113,
+          "value": -3.4
+        },
+        {
+          "pos": 129,
+          "value": 16.8
+        },
+        {
+          "pos": 145,
+          "value": 43.2
+        },
+        {
+          "pos": 161,
+          "value": 72.2
+        },
+        {
+          "pos": 177,
+          "value": 93.7
+        },
+        {
+          "pos": 181,
+          "value": 95.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 316,
+    "start_s": 100.18020833333334,
+    "end_s": 100.54270833333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "listening",
+      "phoneme": "l I",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 96173,
+      "duration": 348,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.23921812512409757,
+        "amplitudeStart": 0.64,
+        "amplitudeEnd": 0.5759,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 97.5
+        },
+        {
+          "pos": 31,
+          "value": 97.5
+        },
+        {
+          "pos": 41,
+          "value": 97.5
+        },
+        {
+          "pos": 57,
+          "value": 100.8
+        },
+        {
+          "pos": 73,
+          "value": 100.3
+        },
+        {
+          "pos": 89,
+          "value": 89.1
+        },
+        {
+          "pos": 105,
+          "value": 86.8
+        },
+        {
+          "pos": 121,
+          "value": 102.9
+        },
+        {
+          "pos": 137,
+          "value": 122.6
+        },
+        {
+          "pos": 153,
+          "value": 142.3
+        },
+        {
+          "pos": 169,
+          "value": 162.0
+        },
+        {
+          "pos": 185,
+          "value": 181.7
+        },
+        {
+          "pos": 201,
+          "value": 201.3
+        },
+        {
+          "pos": 217,
+          "value": 199.1
+        },
+        {
+          "pos": 233,
+          "value": 107.5
+        },
+        {
+          "pos": 249,
+          "value": 22.9
+        },
+        {
+          "pos": 265,
+          "value": 2.0
+        },
+        {
+          "pos": 281,
+          "value": -0.9
+        },
+        {
+          "pos": 297,
+          "value": 1.6
+        },
+        {
+          "pos": 313,
+          "value": 3.4
+        },
+        {
+          "pos": 329,
+          "value": -2.9
+        },
+        {
+          "pos": 345,
+          "value": -9.9
+        },
+        {
+          "pos": 347,
+          "value": -11.2
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 317,
+    "start_s": 100.54270833333334,
+    "end_s": 100.77708333333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "s @",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 96521,
+      "duration": 225,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.6383800000000001,
+        "amplitudeStart": 0.57,
+        "amplitudeEnd": 0.7043,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -110.9
+        },
+        {
+          "pos": 10,
+          "value": -100.0
+        },
+        {
+          "pos": 26,
+          "value": -92.3
+        },
+        {
+          "pos": 42,
+          "value": -83.7
+        },
+        {
+          "pos": 58,
+          "value": -63.0
+        },
+        {
+          "pos": 74,
+          "value": -19.4
+        },
+        {
+          "pos": 90,
+          "value": 0.2
+        },
+        {
+          "pos": 106,
+          "value": 0.2
+        },
+        {
+          "pos": 122,
+          "value": -1.0
+        },
+        {
+          "pos": 138,
+          "value": -1.1
+        },
+        {
+          "pos": 154,
+          "value": -0.8
+        },
+        {
+          "pos": 170,
+          "value": -2.8
+        },
+        {
+          "pos": 186,
+          "value": -6.1
+        },
+        {
+          "pos": 202,
+          "value": -11.1
+        },
+        {
+          "pos": 218,
+          "value": -11.3
+        },
+        {
+          "pos": 224,
+          "value": -9.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 318,
+    "start_s": 100.77708333333334,
+    "end_s": 101.01145833333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "n I N",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 96746,
+      "duration": 225,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.3883365199273664,
+        "amplitudeStart": 0.44,
+        "amplitudeEnd": 0.40025020027160646,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -3.3
+        },
+        {
+          "pos": 10,
+          "value": -4.2
+        },
+        {
+          "pos": 26,
+          "value": -3.7
+        },
+        {
+          "pos": 42,
+          "value": 3.1
+        },
+        {
+          "pos": 58,
+          "value": 4.8
+        },
+        {
+          "pos": 74,
+          "value": -13.0
+        },
+        {
+          "pos": 90,
+          "value": -51.9
+        },
+        {
+          "pos": 106,
+          "value": -68.6
+        },
+        {
+          "pos": 122,
+          "value": -59.1
+        },
+        {
+          "pos": 138,
+          "value": -44.7
+        },
+        {
+          "pos": 154,
+          "value": -30.3
+        },
+        {
+          "pos": 170,
+          "value": -15.9
+        },
+        {
+          "pos": 186,
+          "value": -1.5
+        },
+        {
+          "pos": 202,
+          "value": 13.5
+        },
+        {
+          "pos": 218,
+          "value": 28.1
+        },
+        {
+          "pos": 224,
+          "value": 31.7
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 319,
+    "start_s": 101.01145833333334,
+    "end_s": 101.3375,
+    "note": {
+      "isMuted": false,
+      "lyric": "Maybe",
+      "phoneme": "m eI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 96971,
+      "duration": 313,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.4288737696018606,
+        "amplitudeStart": 0.63251,
+        "amplitudeEnd": 0.7313,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 4.6
+        },
+        {
+          "pos": 10,
+          "value": 9.1
+        },
+        {
+          "pos": 26,
+          "value": 10.6
+        },
+        {
+          "pos": 42,
+          "value": 2.3
+        },
+        {
+          "pos": 58,
+          "value": -1.0
+        },
+        {
+          "pos": 74,
+          "value": -1.8
+        },
+        {
+          "pos": 90,
+          "value": -3.0
+        },
+        {
+          "pos": 106,
+          "value": -2.9
+        },
+        {
+          "pos": 122,
+          "value": -1.5
+        },
+        {
+          "pos": 138,
+          "value": 0.8
+        },
+        {
+          "pos": 154,
+          "value": -14.7
+        },
+        {
+          "pos": 170,
+          "value": -76.4
+        },
+        {
+          "pos": 186,
+          "value": -84.9
+        },
+        {
+          "pos": 202,
+          "value": -48.4
+        },
+        {
+          "pos": 218,
+          "value": -21.9
+        },
+        {
+          "pos": 234,
+          "value": -62.8
+        },
+        {
+          "pos": 250,
+          "value": -91.6
+        },
+        {
+          "pos": 266,
+          "value": -102.8
+        },
+        {
+          "pos": 282,
+          "value": -100.2
+        },
+        {
+          "pos": 298,
+          "value": -101.3
+        },
+        {
+          "pos": 312,
+          "value": -101.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 320,
+    "start_s": 101.3375,
+    "end_s": 101.61979166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "b i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 97284,
+      "duration": 271,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.78939,
+        "amplitudeStart": 0.57,
+        "amplitudeEnd": 0.47074,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -100.6
+        },
+        {
+          "pos": 10,
+          "value": -101.3
+        },
+        {
+          "pos": 26,
+          "value": -102.7
+        },
+        {
+          "pos": 42,
+          "value": -96.4
+        },
+        {
+          "pos": 58,
+          "value": -94.7
+        },
+        {
+          "pos": 74,
+          "value": -93.9
+        },
+        {
+          "pos": 90,
+          "value": -84.9
+        },
+        {
+          "pos": 106,
+          "value": -55.5
+        },
+        {
+          "pos": 122,
+          "value": -29.9
+        },
+        {
+          "pos": 138,
+          "value": -17.3
+        },
+        {
+          "pos": 154,
+          "value": -10.4
+        },
+        {
+          "pos": 170,
+          "value": -7.3
+        },
+        {
+          "pos": 186,
+          "value": -4.8
+        },
+        {
+          "pos": 202,
+          "value": -3.9
+        },
+        {
+          "pos": 218,
+          "value": -5.1
+        },
+        {
+          "pos": 234,
+          "value": -26.6
+        },
+        {
+          "pos": 250,
+          "value": -58.8
+        },
+        {
+          "pos": 266,
+          "value": -23.7
+        },
+        {
+          "pos": 270,
+          "value": -12.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 321,
+    "start_s": 101.63333333333334,
+    "end_s": 101.86145833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "nobody",
+      "phoneme": "n @U",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 97568,
+      "duration": 219,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.46054,
+        "amplitudeStart": 0.51,
+        "amplitudeEnd": 0.5218,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 56.7
+        },
+        {
+          "pos": 15,
+          "value": 56.7
+        },
+        {
+          "pos": 25,
+          "value": 43.8
+        },
+        {
+          "pos": 41,
+          "value": 22.8
+        },
+        {
+          "pos": 57,
+          "value": 7.9
+        },
+        {
+          "pos": 73,
+          "value": -1.8
+        },
+        {
+          "pos": 89,
+          "value": -1.1
+        },
+        {
+          "pos": 105,
+          "value": 4.1
+        },
+        {
+          "pos": 121,
+          "value": -6.0
+        },
+        {
+          "pos": 137,
+          "value": -3.5
+        },
+        {
+          "pos": 153,
+          "value": -5.3
+        },
+        {
+          "pos": 169,
+          "value": 6.7
+        },
+        {
+          "pos": 185,
+          "value": 19.7
+        },
+        {
+          "pos": 201,
+          "value": 35.1
+        },
+        {
+          "pos": 202,
+          "value": 38.3
+        },
+        {
+          "pos": 218,
+          "value": 38.3
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 322,
+    "start_s": 101.86145833333333,
+    "end_s": 102.08541666666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "b Q",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 97787,
+      "duration": 215,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.2202,
+        "amplitudeStart": 0.4929,
+        "amplitudeEnd": 0.6583,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 14.5
+        },
+        {
+          "pos": 10,
+          "value": 9.9
+        },
+        {
+          "pos": 26,
+          "value": 1.0
+        },
+        {
+          "pos": 42,
+          "value": -2.0
+        },
+        {
+          "pos": 58,
+          "value": -2.8
+        },
+        {
+          "pos": 74,
+          "value": -3.9
+        },
+        {
+          "pos": 90,
+          "value": -4.4
+        },
+        {
+          "pos": 106,
+          "value": -2.4
+        },
+        {
+          "pos": 122,
+          "value": 0.1
+        },
+        {
+          "pos": 138,
+          "value": 4.8
+        },
+        {
+          "pos": 154,
+          "value": 5.3
+        },
+        {
+          "pos": 170,
+          "value": 8.5
+        },
+        {
+          "pos": 186,
+          "value": 0.9
+        },
+        {
+          "pos": 202,
+          "value": -1.1
+        },
+        {
+          "pos": 214,
+          "value": 4.8
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 323,
+    "start_s": 102.08541666666666,
+    "end_s": 102.20729166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "d i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 98002,
+      "duration": 117,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.2752956123352051,
+        "amplitudeStart": 0.44,
+        "amplitudeEnd": 0.5,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -10.4
+        },
+        {
+          "pos": 10,
+          "value": -10.4
+        },
+        {
+          "pos": 26,
+          "value": -10.4
+        },
+        {
+          "pos": 42,
+          "value": -10.4
+        },
+        {
+          "pos": 58,
+          "value": -10.4
+        },
+        {
+          "pos": 74,
+          "value": -10.4
+        },
+        {
+          "pos": 90,
+          "value": -10.4
+        },
+        {
+          "pos": 106,
+          "value": -10.4
+        },
+        {
+          "pos": 116,
+          "value": -10.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 324,
+    "start_s": 102.68645833333333,
+    "end_s": 102.92604166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "That's",
+      "phoneme": "D { t s",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 98579,
+      "duration": 230,
+      "number": 59,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.2358364382067536,
+        "amplitudeStart": 0.58374,
+        "amplitudeEnd": 0.39546,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -20.4
+        },
+        {
+          "pos": 10,
+          "value": -20.4
+        },
+        {
+          "pos": 26,
+          "value": -20.4
+        },
+        {
+          "pos": 42,
+          "value": -20.4
+        },
+        {
+          "pos": 58,
+          "value": -16.5
+        },
+        {
+          "pos": 74,
+          "value": 7.1
+        },
+        {
+          "pos": 90,
+          "value": 44.4
+        },
+        {
+          "pos": 106,
+          "value": 73.1
+        },
+        {
+          "pos": 122,
+          "value": 78.3
+        },
+        {
+          "pos": 138,
+          "value": 78.3
+        },
+        {
+          "pos": 154,
+          "value": 78.3
+        },
+        {
+          "pos": 170,
+          "value": 78.3
+        },
+        {
+          "pos": 186,
+          "value": 78.3
+        },
+        {
+          "pos": 202,
+          "value": 78.3
+        },
+        {
+          "pos": 218,
+          "value": 78.3
+        },
+        {
+          "pos": 229,
+          "value": 78.3
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 325,
+    "start_s": 103.08541666666666,
+    "end_s": 103.7,
+    "note": {
+      "isMuted": false,
+      "lyric": "fine",
+      "phoneme": "f aI n",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 98962,
+      "duration": 590,
+      "number": 60,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.41011,
+        "amplitudeStart": 0.5558,
+        "amplitudeEnd": 0.7261,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 19.0
+        },
+        {
+          "pos": 10,
+          "value": 19.0
+        },
+        {
+          "pos": 26,
+          "value": 19.0
+        },
+        {
+          "pos": 42,
+          "value": 17.5
+        },
+        {
+          "pos": 58,
+          "value": 9.3
+        },
+        {
+          "pos": 74,
+          "value": -1.8
+        },
+        {
+          "pos": 90,
+          "value": -11.2
+        },
+        {
+          "pos": 106,
+          "value": -9.6
+        },
+        {
+          "pos": 122,
+          "value": -0.8
+        },
+        {
+          "pos": 138,
+          "value": 16.4
+        },
+        {
+          "pos": 154,
+          "value": 32.8
+        },
+        {
+          "pos": 170,
+          "value": 16.4
+        },
+        {
+          "pos": 186,
+          "value": 3.4
+        },
+        {
+          "pos": 202,
+          "value": 3.3
+        },
+        {
+          "pos": 218,
+          "value": -2.1
+        },
+        {
+          "pos": 234,
+          "value": -0.1
+        },
+        {
+          "pos": 250,
+          "value": -0.1
+        },
+        {
+          "pos": 266,
+          "value": -1.5
+        },
+        {
+          "pos": 282,
+          "value": -1.6
+        },
+        {
+          "pos": 298,
+          "value": -2.5
+        },
+        {
+          "pos": 314,
+          "value": -5.3
+        },
+        {
+          "pos": 330,
+          "value": -2.4
+        },
+        {
+          "pos": 346,
+          "value": -0.6
+        },
+        {
+          "pos": 362,
+          "value": -0.3
+        },
+        {
+          "pos": 378,
+          "value": -1.5
+        },
+        {
+          "pos": 394,
+          "value": -2.8
+        },
+        {
+          "pos": 410,
+          "value": -2.8
+        },
+        {
+          "pos": 426,
+          "value": -4.9
+        },
+        {
+          "pos": 442,
+          "value": -7.0
+        },
+        {
+          "pos": 458,
+          "value": -3.4
+        },
+        {
+          "pos": 474,
+          "value": -2.7
+        },
+        {
+          "pos": 490,
+          "value": -1.4
+        },
+        {
+          "pos": 506,
+          "value": -2.0
+        },
+        {
+          "pos": 522,
+          "value": -1.9
+        },
+        {
+          "pos": 538,
+          "value": -2.5
+        },
+        {
+          "pos": 554,
+          "value": -2.6
+        },
+        {
+          "pos": 570,
+          "value": -0.8
+        },
+        {
+          "pos": 586,
+          "value": -0.1
+        },
+        {
+          "pos": 589,
+          "value": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 326,
+    "start_s": 105.775,
+    "end_s": 105.95729166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "We",
+      "phoneme": "w i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 101544,
+      "duration": 175,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.80813,
+        "amplitudeStart": 0.29282,
+        "amplitudeEnd": 0.57243,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 35.18
+        },
+        {
+          "pos": 5,
+          "value": 35.18
+        },
+        {
+          "pos": 10,
+          "value": 35.18
+        },
+        {
+          "pos": 15,
+          "value": 32.86
+        },
+        {
+          "pos": 20,
+          "value": 14.61
+        },
+        {
+          "pos": 25,
+          "value": 3.34
+        },
+        {
+          "pos": 30,
+          "value": -3.53
+        },
+        {
+          "pos": 35,
+          "value": -7.73
+        },
+        {
+          "pos": 40,
+          "value": -10.37
+        },
+        {
+          "pos": 45,
+          "value": -12.08
+        },
+        {
+          "pos": 50,
+          "value": -12.7
+        },
+        {
+          "pos": 55,
+          "value": -12.4
+        },
+        {
+          "pos": 60,
+          "value": -11.37
+        },
+        {
+          "pos": 65,
+          "value": -9.53
+        },
+        {
+          "pos": 70,
+          "value": -6.38
+        },
+        {
+          "pos": 75,
+          "value": -1.41
+        },
+        {
+          "pos": 80,
+          "value": 4.84
+        },
+        {
+          "pos": 85,
+          "value": 11.57
+        },
+        {
+          "pos": 90,
+          "value": 17.57
+        },
+        {
+          "pos": 95,
+          "value": 21.82
+        },
+        {
+          "pos": 100,
+          "value": 23.7
+        },
+        {
+          "pos": 105,
+          "value": 22.5
+        },
+        {
+          "pos": 110,
+          "value": 19.01
+        },
+        {
+          "pos": 115,
+          "value": 15.43
+        },
+        {
+          "pos": 120,
+          "value": 15.29
+        },
+        {
+          "pos": 125,
+          "value": 15.29
+        },
+        {
+          "pos": 130,
+          "value": 15.29
+        },
+        {
+          "pos": 135,
+          "value": 15.29
+        },
+        {
+          "pos": 140,
+          "value": 15.29
+        },
+        {
+          "pos": 145,
+          "value": 15.29
+        },
+        {
+          "pos": 150,
+          "value": 15.29
+        },
+        {
+          "pos": 155,
+          "value": 15.29
+        },
+        {
+          "pos": 160,
+          "value": 15.29
+        },
+        {
+          "pos": 165,
+          "value": 15.29
+        },
+        {
+          "pos": 170,
+          "value": 15.29
+        },
+        {
+          "pos": 174,
+          "value": 15.29
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 327,
+    "start_s": 105.99479166666667,
+    "end_s": 106.33020833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "flowed",
+      "phoneme": "f l @U d",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 101755,
+      "duration": 322,
+      "number": 79,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.88,
+        "amplitudeStart": 0.5508,
+        "amplitudeEnd": 0.53521,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -114.74
+        },
+        {
+          "pos": 5,
+          "value": -114.74
+        },
+        {
+          "pos": 10,
+          "value": -114.74
+        },
+        {
+          "pos": 15,
+          "value": -114.74
+        },
+        {
+          "pos": 20,
+          "value": -117.1
+        },
+        {
+          "pos": 25,
+          "value": -119.09
+        },
+        {
+          "pos": 30,
+          "value": -125.74
+        },
+        {
+          "pos": 35,
+          "value": -132.45
+        },
+        {
+          "pos": 40,
+          "value": -137.15
+        },
+        {
+          "pos": 45,
+          "value": -143.46
+        },
+        {
+          "pos": 50,
+          "value": -149.4
+        },
+        {
+          "pos": 55,
+          "value": -153.5
+        },
+        {
+          "pos": 60,
+          "value": -154.11
+        },
+        {
+          "pos": 65,
+          "value": -150.87
+        },
+        {
+          "pos": 70,
+          "value": -143.54
+        },
+        {
+          "pos": 75,
+          "value": -132.77
+        },
+        {
+          "pos": 80,
+          "value": -119.99
+        },
+        {
+          "pos": 85,
+          "value": -106.04
+        },
+        {
+          "pos": 90,
+          "value": -91.32
+        },
+        {
+          "pos": 95,
+          "value": -77.11
+        },
+        {
+          "pos": 100,
+          "value": -63.45
+        },
+        {
+          "pos": 105,
+          "value": -50.41
+        },
+        {
+          "pos": 110,
+          "value": -38.83
+        },
+        {
+          "pos": 115,
+          "value": -28.34
+        },
+        {
+          "pos": 120,
+          "value": -18.82
+        },
+        {
+          "pos": 125,
+          "value": -10.71
+        },
+        {
+          "pos": 130,
+          "value": -4.33
+        },
+        {
+          "pos": 135,
+          "value": -0.01
+        },
+        {
+          "pos": 140,
+          "value": 2.39
+        },
+        {
+          "pos": 145,
+          "value": 3.35
+        },
+        {
+          "pos": 150,
+          "value": 3.37
+        },
+        {
+          "pos": 155,
+          "value": 3.46
+        },
+        {
+          "pos": 160,
+          "value": 3.71
+        },
+        {
+          "pos": 165,
+          "value": 3.98
+        },
+        {
+          "pos": 170,
+          "value": 4.56
+        },
+        {
+          "pos": 175,
+          "value": 4.76
+        },
+        {
+          "pos": 180,
+          "value": 4.63
+        },
+        {
+          "pos": 185,
+          "value": 4.29
+        },
+        {
+          "pos": 190,
+          "value": 3.53
+        },
+        {
+          "pos": 195,
+          "value": 3.07
+        },
+        {
+          "pos": 200,
+          "value": 2.85
+        },
+        {
+          "pos": 205,
+          "value": 2.73
+        },
+        {
+          "pos": 210,
+          "value": 2.63
+        },
+        {
+          "pos": 215,
+          "value": 1.98
+        },
+        {
+          "pos": 220,
+          "value": 0.92
+        },
+        {
+          "pos": 225,
+          "value": -0.44
+        },
+        {
+          "pos": 230,
+          "value": -1.81
+        },
+        {
+          "pos": 235,
+          "value": -2.85
+        },
+        {
+          "pos": 240,
+          "value": -3.72
+        },
+        {
+          "pos": 245,
+          "value": -4.46
+        },
+        {
+          "pos": 250,
+          "value": -5.49
+        },
+        {
+          "pos": 255,
+          "value": -6.98
+        },
+        {
+          "pos": 260,
+          "value": -10.07
+        },
+        {
+          "pos": 265,
+          "value": -10.88
+        },
+        {
+          "pos": 270,
+          "value": -10.88
+        },
+        {
+          "pos": 275,
+          "value": -10.88
+        },
+        {
+          "pos": 280,
+          "value": -10.88
+        },
+        {
+          "pos": 285,
+          "value": -10.88
+        },
+        {
+          "pos": 290,
+          "value": -10.88
+        },
+        {
+          "pos": 295,
+          "value": -10.88
+        },
+        {
+          "pos": 300,
+          "value": -10.88
+        },
+        {
+          "pos": 305,
+          "value": -10.88
+        },
+        {
+          "pos": 310,
+          "value": -10.88
+        },
+        {
+          "pos": 315,
+          "value": -10.88
+        },
+        {
+          "pos": 320,
+          "value": -10.88
+        },
+        {
+          "pos": 321,
+          "value": -10.88
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 328,
+    "start_s": 106.38854166666667,
+    "end_s": 106.7875,
+    "note": {
+      "isMuted": false,
+      "lyric": "past",
+      "phoneme": "p { s t",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 102133,
+      "duration": 383,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.5507629184722901,
+        "amplitudeStart": 0.53291,
+        "amplitudeEnd": 0.7152,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -148.5
+        },
+        {
+          "pos": 10,
+          "value": -148.5
+        },
+        {
+          "pos": 22,
+          "value": -148.5
+        },
+        {
+          "pos": 34,
+          "value": -153.8
+        },
+        {
+          "pos": 46,
+          "value": -172.7
+        },
+        {
+          "pos": 58,
+          "value": -189.2
+        },
+        {
+          "pos": 70,
+          "value": -196.2
+        },
+        {
+          "pos": 82,
+          "value": -190.8
+        },
+        {
+          "pos": 94,
+          "value": -169.0
+        },
+        {
+          "pos": 106,
+          "value": -138.0
+        },
+        {
+          "pos": 118,
+          "value": -98.5
+        },
+        {
+          "pos": 130,
+          "value": -55.8
+        },
+        {
+          "pos": 142,
+          "value": -25.4
+        },
+        {
+          "pos": 154,
+          "value": -10.4
+        },
+        {
+          "pos": 166,
+          "value": -4.1
+        },
+        {
+          "pos": 178,
+          "value": -4.1
+        },
+        {
+          "pos": 190,
+          "value": -4.1
+        },
+        {
+          "pos": 202,
+          "value": -4.1
+        },
+        {
+          "pos": 214,
+          "value": -4.1
+        },
+        {
+          "pos": 226,
+          "value": -4.1
+        },
+        {
+          "pos": 238,
+          "value": -1.7
+        },
+        {
+          "pos": 250,
+          "value": 4.5
+        },
+        {
+          "pos": 262,
+          "value": 4.5
+        },
+        {
+          "pos": 274,
+          "value": 4.5
+        },
+        {
+          "pos": 286,
+          "value": 4.5
+        },
+        {
+          "pos": 298,
+          "value": 4.5
+        },
+        {
+          "pos": 310,
+          "value": 4.5
+        },
+        {
+          "pos": 322,
+          "value": 4.5
+        },
+        {
+          "pos": 334,
+          "value": 4.5
+        },
+        {
+          "pos": 346,
+          "value": 4.5
+        },
+        {
+          "pos": 358,
+          "value": 4.5
+        },
+        {
+          "pos": 370,
+          "value": 4.5
+        },
+        {
+          "pos": 382,
+          "value": 4.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 329,
+    "start_s": 106.7875,
+    "end_s": 106.9625,
+    "note": {
+      "isMuted": false,
+      "lyric": "the",
+      "phoneme": "D @",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 102516,
+      "duration": 168,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.27355,
+        "amplitudeStart": 0.33789,
+        "amplitudeEnd": 0.735,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 8.0
+        },
+        {
+          "pos": 11,
+          "value": 8.0
+        },
+        {
+          "pos": 27,
+          "value": 8.0
+        },
+        {
+          "pos": 43,
+          "value": 6.9
+        },
+        {
+          "pos": 59,
+          "value": 0.7
+        },
+        {
+          "pos": 75,
+          "value": -7.8
+        },
+        {
+          "pos": 91,
+          "value": -16.6
+        },
+        {
+          "pos": 107,
+          "value": -25.4
+        },
+        {
+          "pos": 123,
+          "value": -18.2
+        },
+        {
+          "pos": 139,
+          "value": -8.7
+        },
+        {
+          "pos": 155,
+          "value": -4.3
+        },
+        {
+          "pos": 167,
+          "value": -2.9
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 330,
+    "start_s": 106.9625,
+    "end_s": 107.26041666666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "morning",
+      "phoneme": "m O:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 102684,
+      "duration": 286,
+      "number": 73,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.32825,
+        "amplitudeStart": 0.38,
+        "amplitudeEnd": 0.32656,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -105.1
+        },
+        {
+          "pos": 31,
+          "value": -105.1
+        },
+        {
+          "pos": 41,
+          "value": -107.7
+        },
+        {
+          "pos": 57,
+          "value": -109.3
+        },
+        {
+          "pos": 73,
+          "value": -103.0
+        },
+        {
+          "pos": 89,
+          "value": -103.9
+        },
+        {
+          "pos": 105,
+          "value": -104.9
+        },
+        {
+          "pos": 121,
+          "value": -100.6
+        },
+        {
+          "pos": 137,
+          "value": -81.8
+        },
+        {
+          "pos": 153,
+          "value": -45.1
+        },
+        {
+          "pos": 169,
+          "value": 6.0
+        },
+        {
+          "pos": 185,
+          "value": 55.3
+        },
+        {
+          "pos": 201,
+          "value": 89.6
+        },
+        {
+          "pos": 217,
+          "value": 106.5
+        },
+        {
+          "pos": 233,
+          "value": 110.3
+        },
+        {
+          "pos": 249,
+          "value": 108.1
+        },
+        {
+          "pos": 265,
+          "value": 104.4
+        },
+        {
+          "pos": 281,
+          "value": 102.0
+        },
+        {
+          "pos": 285,
+          "value": 101.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 331,
+    "start_s": 107.26041666666667,
+    "end_s": 107.36875,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "O: r",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 102970,
+      "duration": 104,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.40131,
+        "amplitudeStart": 0.27793,
+        "amplitudeEnd": 0.6853,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -6.8
+        },
+        {
+          "pos": 10,
+          "value": -4.3
+        },
+        {
+          "pos": 26,
+          "value": -0.2
+        },
+        {
+          "pos": 42,
+          "value": 0.8
+        },
+        {
+          "pos": 58,
+          "value": 1.0
+        },
+        {
+          "pos": 74,
+          "value": 0.2
+        },
+        {
+          "pos": 90,
+          "value": -3.1
+        },
+        {
+          "pos": 103,
+          "value": -7.0
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 332,
+    "start_s": 107.36875,
+    "end_s": 107.85,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "n I N",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 103074,
+      "duration": 462,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.3501655272815508,
+        "amplitudeStart": 0.52316,
+        "amplitudeEnd": 0.7357,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 182.9
+        },
+        {
+          "pos": 10,
+          "value": 161.8
+        },
+        {
+          "pos": 26,
+          "value": 103.0
+        },
+        {
+          "pos": 42,
+          "value": 41.6
+        },
+        {
+          "pos": 58,
+          "value": 3.7
+        },
+        {
+          "pos": 74,
+          "value": -2.3
+        },
+        {
+          "pos": 90,
+          "value": -1.1
+        },
+        {
+          "pos": 106,
+          "value": -4.1
+        },
+        {
+          "pos": 122,
+          "value": -9.3
+        },
+        {
+          "pos": 138,
+          "value": -16.1
+        },
+        {
+          "pos": 154,
+          "value": -21.9
+        },
+        {
+          "pos": 170,
+          "value": -18.2
+        },
+        {
+          "pos": 186,
+          "value": -4.3
+        },
+        {
+          "pos": 202,
+          "value": 14.0
+        },
+        {
+          "pos": 218,
+          "value": 25.0
+        },
+        {
+          "pos": 234,
+          "value": 27.9
+        },
+        {
+          "pos": 250,
+          "value": 17.1
+        },
+        {
+          "pos": 266,
+          "value": -8.7
+        },
+        {
+          "pos": 282,
+          "value": -36.4
+        },
+        {
+          "pos": 298,
+          "value": -50.4
+        },
+        {
+          "pos": 314,
+          "value": -46.9
+        },
+        {
+          "pos": 330,
+          "value": -26.1
+        },
+        {
+          "pos": 346,
+          "value": 8.2
+        },
+        {
+          "pos": 362,
+          "value": 33.3
+        },
+        {
+          "pos": 378,
+          "value": 41.6
+        },
+        {
+          "pos": 394,
+          "value": 24.4
+        },
+        {
+          "pos": 410,
+          "value": -9.6
+        },
+        {
+          "pos": 426,
+          "value": -41.2
+        },
+        {
+          "pos": 442,
+          "value": -55.2
+        },
+        {
+          "pos": 458,
+          "value": -59.2
+        },
+        {
+          "pos": 461,
+          "value": -59.7
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 333,
+    "start_s": 108.190625,
+    "end_s": 108.46354166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "Past",
+      "phoneme": "p { s t",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 103863,
+      "duration": 262,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.55422,
+        "amplitudeStart": 0.29546,
+        "amplitudeEnd": 0.695,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -58.4
+        },
+        {
+          "pos": 10,
+          "value": -58.4
+        },
+        {
+          "pos": 26,
+          "value": -58.4
+        },
+        {
+          "pos": 42,
+          "value": -58.4
+        },
+        {
+          "pos": 58,
+          "value": -57.4
+        },
+        {
+          "pos": 74,
+          "value": -45.7
+        },
+        {
+          "pos": 90,
+          "value": -10.6
+        },
+        {
+          "pos": 106,
+          "value": 6.4
+        },
+        {
+          "pos": 122,
+          "value": 4.4
+        },
+        {
+          "pos": 138,
+          "value": -8.2
+        },
+        {
+          "pos": 154,
+          "value": -21.6
+        },
+        {
+          "pos": 170,
+          "value": -24.3
+        },
+        {
+          "pos": 186,
+          "value": -24.3
+        },
+        {
+          "pos": 202,
+          "value": -24.3
+        },
+        {
+          "pos": 218,
+          "value": -24.3
+        },
+        {
+          "pos": 230,
+          "value": -24.3
+        },
+        {
+          "pos": 261,
+          "value": -24.3
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 334,
+    "start_s": 108.46354166666667,
+    "end_s": 108.66979166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "the",
+      "phoneme": "D @",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 104125,
+      "duration": 198,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.25809,
+        "amplitudeStart": 0.31648,
+        "amplitudeEnd": 0.4017,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -17.9
+        },
+        {
+          "pos": 11,
+          "value": -16.5
+        },
+        {
+          "pos": 27,
+          "value": -7.2
+        },
+        {
+          "pos": 43,
+          "value": -3.2
+        },
+        {
+          "pos": 59,
+          "value": -2.4
+        },
+        {
+          "pos": 75,
+          "value": -1.2
+        },
+        {
+          "pos": 91,
+          "value": -0.6
+        },
+        {
+          "pos": 107,
+          "value": -0.7
+        },
+        {
+          "pos": 123,
+          "value": 0.1
+        },
+        {
+          "pos": 139,
+          "value": 0.2
+        },
+        {
+          "pos": 155,
+          "value": 1.2
+        },
+        {
+          "pos": 171,
+          "value": 3.9
+        },
+        {
+          "pos": 187,
+          "value": 5.5
+        },
+        {
+          "pos": 197,
+          "value": 1.8
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 335,
+    "start_s": 108.66979166666667,
+    "end_s": 109.27604166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "edge",
+      "phoneme": "e dZ",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 104323,
+      "duration": 582,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.25712696310984107,
+        "amplitudeStart": 0.51,
+        "amplitudeEnd": 0.7291,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 186.7
+        },
+        {
+          "pos": 10,
+          "value": 271.2
+        },
+        {
+          "pos": 26,
+          "value": 242.9
+        },
+        {
+          "pos": 42,
+          "value": -167.9
+        },
+        {
+          "pos": 58,
+          "value": -314.8
+        },
+        {
+          "pos": 74,
+          "value": -296.1
+        },
+        {
+          "pos": 90,
+          "value": -247.1
+        },
+        {
+          "pos": 106,
+          "value": -202.6
+        },
+        {
+          "pos": 122,
+          "value": -143.2
+        },
+        {
+          "pos": 138,
+          "value": -114.2
+        },
+        {
+          "pos": 154,
+          "value": -138.8
+        },
+        {
+          "pos": 170,
+          "value": -145.6
+        },
+        {
+          "pos": 186,
+          "value": -103.6
+        },
+        {
+          "pos": 202,
+          "value": -72.8
+        },
+        {
+          "pos": 218,
+          "value": -44.2
+        },
+        {
+          "pos": 234,
+          "value": -5.3
+        },
+        {
+          "pos": 250,
+          "value": 10.5
+        },
+        {
+          "pos": 266,
+          "value": 6.7
+        },
+        {
+          "pos": 282,
+          "value": -1.8
+        },
+        {
+          "pos": 298,
+          "value": -6.5
+        },
+        {
+          "pos": 314,
+          "value": -7.9
+        },
+        {
+          "pos": 330,
+          "value": -5.0
+        },
+        {
+          "pos": 346,
+          "value": -1.1
+        },
+        {
+          "pos": 362,
+          "value": 0.7
+        },
+        {
+          "pos": 378,
+          "value": 0.7
+        },
+        {
+          "pos": 394,
+          "value": 0.3
+        },
+        {
+          "pos": 410,
+          "value": -0.1
+        },
+        {
+          "pos": 426,
+          "value": -0.1
+        },
+        {
+          "pos": 442,
+          "value": -1.3
+        },
+        {
+          "pos": 458,
+          "value": -3.0
+        },
+        {
+          "pos": 474,
+          "value": -5.0
+        },
+        {
+          "pos": 490,
+          "value": -5.2
+        },
+        {
+          "pos": 506,
+          "value": -3.3
+        },
+        {
+          "pos": 518,
+          "value": -1.8
+        },
+        {
+          "pos": 581,
+          "value": -1.8
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 336,
+    "start_s": 109.29479166666667,
+    "end_s": 109.5,
+    "note": {
+      "isMuted": false,
+      "lyric": "of",
+      "phoneme": "V v",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 104923,
+      "duration": 197,
+      "number": 79,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.85634,
+        "amplitudeStart": 0.38067,
+        "amplitudeEnd": 0.5835,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 28.2
+        },
+        {
+          "pos": 10,
+          "value": 28.2
+        },
+        {
+          "pos": 22,
+          "value": 28.2
+        },
+        {
+          "pos": 34,
+          "value": 21.6
+        },
+        {
+          "pos": 46,
+          "value": 8.7
+        },
+        {
+          "pos": 58,
+          "value": -0.8
+        },
+        {
+          "pos": 70,
+          "value": -3.9
+        },
+        {
+          "pos": 82,
+          "value": -3.9
+        },
+        {
+          "pos": 94,
+          "value": -3.9
+        },
+        {
+          "pos": 106,
+          "value": -3.9
+        },
+        {
+          "pos": 118,
+          "value": -3.9
+        },
+        {
+          "pos": 130,
+          "value": -0.5
+        },
+        {
+          "pos": 142,
+          "value": 2.6
+        },
+        {
+          "pos": 154,
+          "value": 2.6
+        },
+        {
+          "pos": 166,
+          "value": 2.6
+        },
+        {
+          "pos": 178,
+          "value": 2.6
+        },
+        {
+          "pos": 190,
+          "value": 2.6
+        },
+        {
+          "pos": 196,
+          "value": 2.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 337,
+    "start_s": 109.89895833333334,
+    "end_s": 110.17708333333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "almost",
+      "phoneme": "O: l",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 105503,
+      "duration": 267,
+      "number": 77,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.33646,
+        "amplitudeStart": 0.38,
+        "amplitudeEnd": 0.47651,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 137.2
+        },
+        {
+          "pos": 11,
+          "value": 93.1
+        },
+        {
+          "pos": 27,
+          "value": 16.4
+        },
+        {
+          "pos": 43,
+          "value": -2.9
+        },
+        {
+          "pos": 59,
+          "value": -6.7
+        },
+        {
+          "pos": 75,
+          "value": -9.9
+        },
+        {
+          "pos": 91,
+          "value": -11.8
+        },
+        {
+          "pos": 107,
+          "value": -7.5
+        },
+        {
+          "pos": 123,
+          "value": -0.7
+        },
+        {
+          "pos": 139,
+          "value": 2.6
+        },
+        {
+          "pos": 155,
+          "value": 4.6
+        },
+        {
+          "pos": 171,
+          "value": 2.7
+        },
+        {
+          "pos": 187,
+          "value": -1.8
+        },
+        {
+          "pos": 203,
+          "value": -3.3
+        },
+        {
+          "pos": 219,
+          "value": -3.4
+        },
+        {
+          "pos": 235,
+          "value": -3.4
+        },
+        {
+          "pos": 266,
+          "value": -3.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 338,
+    "start_s": 110.17708333333333,
+    "end_s": 110.29791666666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "m @U s t",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 105770,
+      "duration": 116,
+      "number": 77,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.549972721328783,
+        "amplitudeStart": 0.2434,
+        "amplitudeEnd": 0.591,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": true
+    }
+  },
+  {
+    "note_id": 339,
+    "start_s": 110.29791666666667,
+    "end_s": 110.96354166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "known",
+      "phoneme": "n @U n",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 105886,
+      "duration": 639,
+      "number": 76,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.29671,
+        "amplitudeStart": 0.37563,
+        "amplitudeEnd": 0.7303,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -1.4
+        },
+        {
+          "pos": 11,
+          "value": -2.4
+        },
+        {
+          "pos": 27,
+          "value": 3.5
+        },
+        {
+          "pos": 43,
+          "value": 10.6
+        },
+        {
+          "pos": 59,
+          "value": 10.6
+        },
+        {
+          "pos": 75,
+          "value": 2.8
+        },
+        {
+          "pos": 91,
+          "value": -5.2
+        },
+        {
+          "pos": 107,
+          "value": -9.1
+        },
+        {
+          "pos": 123,
+          "value": -10.1
+        },
+        {
+          "pos": 139,
+          "value": -6.9
+        },
+        {
+          "pos": 155,
+          "value": 3.4
+        },
+        {
+          "pos": 171,
+          "value": 15.9
+        },
+        {
+          "pos": 187,
+          "value": 26.6
+        },
+        {
+          "pos": 203,
+          "value": 28.3
+        },
+        {
+          "pos": 219,
+          "value": 12.1
+        },
+        {
+          "pos": 235,
+          "value": -12.1
+        },
+        {
+          "pos": 251,
+          "value": -27.2
+        },
+        {
+          "pos": 267,
+          "value": -37.5
+        },
+        {
+          "pos": 283,
+          "value": -32.9
+        },
+        {
+          "pos": 299,
+          "value": -16.8
+        },
+        {
+          "pos": 320,
+          "value": 8.9
+        },
+        {
+          "pos": 342,
+          "value": 35.9
+        },
+        {
+          "pos": 364,
+          "value": 47.9
+        },
+        {
+          "pos": 386,
+          "value": 25.4
+        },
+        {
+          "pos": 407,
+          "value": 0.7
+        },
+        {
+          "pos": 429,
+          "value": -19.7
+        },
+        {
+          "pos": 451,
+          "value": -29.5
+        },
+        {
+          "pos": 473,
+          "value": -17.9
+        },
+        {
+          "pos": 495,
+          "value": -2.6
+        },
+        {
+          "pos": 517,
+          "value": 6.2
+        },
+        {
+          "pos": 538,
+          "value": 12.3
+        },
+        {
+          "pos": 560,
+          "value": 18.2
+        },
+        {
+          "pos": 582,
+          "value": 8.0
+        },
+        {
+          "pos": 604,
+          "value": 5.8
+        },
+        {
+          "pos": 626,
+          "value": 28.9
+        },
+        {
+          "pos": 638,
+          "value": 51.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 340,
+    "start_s": 111.4625,
+    "end_s": 111.69375,
+    "note": {
+      "isMuted": false,
+      "lyric": "Every",
+      "phoneme": "e",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 107004,
+      "duration": 222,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.1588966292639452,
+        "amplitudeStart": 0.59506,
+        "amplitudeEnd": 0.71273,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -203.6
+        },
+        {
+          "pos": 10,
+          "value": -205.9
+        },
+        {
+          "pos": 26,
+          "value": -214.3
+        },
+        {
+          "pos": 42,
+          "value": -264.3
+        },
+        {
+          "pos": 58,
+          "value": -394.5
+        },
+        {
+          "pos": 74,
+          "value": -353.4
+        },
+        {
+          "pos": 90,
+          "value": -226.8
+        },
+        {
+          "pos": 106,
+          "value": -97.3
+        },
+        {
+          "pos": 122,
+          "value": -12.6
+        },
+        {
+          "pos": 138,
+          "value": -3.5
+        },
+        {
+          "pos": 154,
+          "value": -6.8
+        },
+        {
+          "pos": 170,
+          "value": -6.7
+        },
+        {
+          "pos": 186,
+          "value": -5.8
+        },
+        {
+          "pos": 202,
+          "value": -3.1
+        },
+        {
+          "pos": 218,
+          "value": -0.5
+        },
+        {
+          "pos": 221,
+          "value": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 341,
+    "start_s": 111.69375,
+    "end_s": 111.85729166666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "v @r",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 107226,
+      "duration": 157,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.5157557072127256,
+        "amplitudeStart": 0.52916,
+        "amplitudeEnd": 0.57356,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -0.9
+        },
+        {
+          "pos": 10,
+          "value": 0.4
+        },
+        {
+          "pos": 26,
+          "value": -0.1
+        },
+        {
+          "pos": 42,
+          "value": -1.9
+        },
+        {
+          "pos": 58,
+          "value": 0.4
+        },
+        {
+          "pos": 74,
+          "value": 2.4
+        },
+        {
+          "pos": 90,
+          "value": 3.4
+        },
+        {
+          "pos": 106,
+          "value": 5.0
+        },
+        {
+          "pos": 122,
+          "value": 4.3
+        },
+        {
+          "pos": 138,
+          "value": 3.2
+        },
+        {
+          "pos": 154,
+          "value": 4.1
+        },
+        {
+          "pos": 156,
+          "value": 4.4
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 342,
+    "start_s": 111.85729166666667,
+    "end_s": 111.98854166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "i:",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 107383,
+      "duration": 126,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.6445530105951514,
+        "amplitudeStart": 0.48699,
+        "amplitudeEnd": 0.4860166403452555,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 3.4
+        },
+        {
+          "pos": 10,
+          "value": 3.0
+        },
+        {
+          "pos": 26,
+          "value": 2.4
+        },
+        {
+          "pos": 42,
+          "value": 3.4
+        },
+        {
+          "pos": 58,
+          "value": 3.4
+        },
+        {
+          "pos": 74,
+          "value": 2.7
+        },
+        {
+          "pos": 90,
+          "value": 3.6
+        },
+        {
+          "pos": 106,
+          "value": 2.3
+        },
+        {
+          "pos": 122,
+          "value": 0.8
+        },
+        {
+          "pos": 125,
+          "value": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 343,
+    "start_s": 111.98854166666666,
+    "end_s": 112.38020833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "answer",
+      "phoneme": "{ n",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 107509,
+      "duration": 376,
+      "number": 76,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.42554,
+        "amplitudeStart": 0.40031,
+        "amplitudeEnd": 0.6315,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -206.7
+        },
+        {
+          "pos": 31,
+          "value": -206.7
+        },
+        {
+          "pos": 41,
+          "value": -207.3
+        },
+        {
+          "pos": 57,
+          "value": -206.2
+        },
+        {
+          "pos": 73,
+          "value": -191.5
+        },
+        {
+          "pos": 89,
+          "value": -145.0
+        },
+        {
+          "pos": 105,
+          "value": -91.3
+        },
+        {
+          "pos": 121,
+          "value": -35.2
+        },
+        {
+          "pos": 137,
+          "value": -4.8
+        },
+        {
+          "pos": 153,
+          "value": 1.5
+        },
+        {
+          "pos": 169,
+          "value": 0.5
+        },
+        {
+          "pos": 185,
+          "value": 1.2
+        },
+        {
+          "pos": 201,
+          "value": 1.2
+        },
+        {
+          "pos": 217,
+          "value": 0.1
+        },
+        {
+          "pos": 233,
+          "value": -0.7
+        },
+        {
+          "pos": 249,
+          "value": -0.7
+        },
+        {
+          "pos": 265,
+          "value": 0.4
+        },
+        {
+          "pos": 281,
+          "value": 8.2
+        },
+        {
+          "pos": 297,
+          "value": 34.4
+        },
+        {
+          "pos": 313,
+          "value": 40.5
+        },
+        {
+          "pos": 329,
+          "value": 40.5
+        },
+        {
+          "pos": 344,
+          "value": 40.5
+        },
+        {
+          "pos": 375,
+          "value": 40.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 344,
+    "start_s": 112.38020833333333,
+    "end_s": 112.66145833333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "s @r",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 107885,
+      "duration": 270,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.35948,
+        "amplitudeStart": 0.3513,
+        "amplitudeEnd": 0.7103,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 204.5
+        },
+        {
+          "pos": 11,
+          "value": 204.5
+        },
+        {
+          "pos": 27,
+          "value": 178.3
+        },
+        {
+          "pos": 43,
+          "value": 60.4
+        },
+        {
+          "pos": 59,
+          "value": 4.7
+        },
+        {
+          "pos": 75,
+          "value": -8.4
+        },
+        {
+          "pos": 91,
+          "value": -9.1
+        },
+        {
+          "pos": 109,
+          "value": -5.2
+        },
+        {
+          "pos": 139,
+          "value": -2.6
+        },
+        {
+          "pos": 170,
+          "value": -2.2
+        },
+        {
+          "pos": 200,
+          "value": -1.7
+        },
+        {
+          "pos": 231,
+          "value": -2.1
+        },
+        {
+          "pos": 261,
+          "value": -2.7
+        },
+        {
+          "pos": 269,
+          "value": -2.8
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 345,
+    "start_s": 113.19375,
+    "end_s": 113.41666666666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "became",
+      "phoneme": "b I",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 108666,
+      "duration": 214,
+      "number": 73,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.5051322681940413,
+        "amplitudeStart": 0.31,
+        "amplitudeEnd": 0.48550092315673826,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -20.5
+        },
+        {
+          "pos": 23,
+          "value": -20.5
+        },
+        {
+          "pos": 33,
+          "value": -20.5
+        },
+        {
+          "pos": 49,
+          "value": -31.4
+        },
+        {
+          "pos": 65,
+          "value": -79.3
+        },
+        {
+          "pos": 81,
+          "value": -98.9
+        },
+        {
+          "pos": 97,
+          "value": -104.6
+        },
+        {
+          "pos": 113,
+          "value": -97.0
+        },
+        {
+          "pos": 129,
+          "value": -57.2
+        },
+        {
+          "pos": 145,
+          "value": 11.3
+        },
+        {
+          "pos": 161,
+          "value": 69.0
+        },
+        {
+          "pos": 177,
+          "value": 96.9
+        },
+        {
+          "pos": 193,
+          "value": 101.6
+        },
+        {
+          "pos": 209,
+          "value": 99.8
+        },
+        {
+          "pos": 213,
+          "value": 98.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 346,
+    "start_s": 113.41666666666667,
+    "end_s": 113.696875,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "k eI m",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 108880,
+      "duration": 269,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.47476654694700676,
+        "amplitudeStart": 0.41093,
+        "amplitudeEnd": 0.6819,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -35.2
+        },
+        {
+          "pos": 10,
+          "value": -55.7
+        },
+        {
+          "pos": 26,
+          "value": -84.3
+        },
+        {
+          "pos": 42,
+          "value": -83.9
+        },
+        {
+          "pos": 58,
+          "value": -85.8
+        },
+        {
+          "pos": 74,
+          "value": -86.4
+        },
+        {
+          "pos": 90,
+          "value": -82.8
+        },
+        {
+          "pos": 106,
+          "value": -62.6
+        },
+        {
+          "pos": 122,
+          "value": -40.0
+        },
+        {
+          "pos": 138,
+          "value": -17.9
+        },
+        {
+          "pos": 154,
+          "value": 2.2
+        },
+        {
+          "pos": 170,
+          "value": 1.7
+        },
+        {
+          "pos": 186,
+          "value": 1.6
+        },
+        {
+          "pos": 202,
+          "value": 0.8
+        },
+        {
+          "pos": 218,
+          "value": 0.9
+        },
+        {
+          "pos": 234,
+          "value": 2.2
+        },
+        {
+          "pos": 250,
+          "value": 2.7
+        },
+        {
+          "pos": 266,
+          "value": 3.5
+        },
+        {
+          "pos": 268,
+          "value": 3.7
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 347,
+    "start_s": 113.696875,
+    "end_s": 113.85,
+    "note": {
+      "isMuted": false,
+      "lyric": "lighter",
+      "phoneme": "l aI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 109149,
+      "duration": 147,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.41294,
+        "amplitudeStart": 0.46685,
+        "amplitudeEnd": 0.49524,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -12.8
+        },
+        {
+          "pos": 10,
+          "value": -12.8
+        },
+        {
+          "pos": 22,
+          "value": -5.4
+        },
+        {
+          "pos": 34,
+          "value": -4.1
+        },
+        {
+          "pos": 46,
+          "value": -4.1
+        },
+        {
+          "pos": 58,
+          "value": -4.1
+        },
+        {
+          "pos": 70,
+          "value": -4.1
+        },
+        {
+          "pos": 82,
+          "value": -4.1
+        },
+        {
+          "pos": 94,
+          "value": 3.3
+        },
+        {
+          "pos": 106,
+          "value": 4.5
+        },
+        {
+          "pos": 118,
+          "value": 4.5
+        },
+        {
+          "pos": 130,
+          "value": 4.5
+        },
+        {
+          "pos": 142,
+          "value": 4.5
+        },
+        {
+          "pos": 146,
+          "value": 4.5
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 348,
+    "start_s": 113.85,
+    "end_s": 114.06458333333333,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "aI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 109296,
+      "duration": 206,
+      "number": 74,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.40496,
+        "amplitudeStart": 0.2425,
+        "amplitudeEnd": 0.5763,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 0.9
+        },
+        {
+          "pos": 10,
+          "value": 1.1
+        },
+        {
+          "pos": 26,
+          "value": 0.7
+        },
+        {
+          "pos": 42,
+          "value": 1.8
+        },
+        {
+          "pos": 58,
+          "value": 2.0
+        },
+        {
+          "pos": 74,
+          "value": 3.0
+        },
+        {
+          "pos": 90,
+          "value": 4.9
+        },
+        {
+          "pos": 106,
+          "value": 4.0
+        },
+        {
+          "pos": 122,
+          "value": 1.9
+        },
+        {
+          "pos": 138,
+          "value": 1.0
+        },
+        {
+          "pos": 154,
+          "value": -0.8
+        },
+        {
+          "pos": 170,
+          "value": -6.9
+        },
+        {
+          "pos": 186,
+          "value": -13.3
+        },
+        {
+          "pos": 205,
+          "value": -13.3
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 349,
+    "start_s": 114.06458333333333,
+    "end_s": 114.56041666666667,
+    "note": {
+      "isMuted": false,
+      "lyric": "-",
+      "phoneme": "t @r",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 109502,
+      "duration": 476,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.41874,
+        "amplitudeStart": 0.3931,
+        "amplitudeEnd": 0.7267,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 8.3
+        },
+        {
+          "pos": 7,
+          "value": 2.0
+        },
+        {
+          "pos": 23,
+          "value": -1.0
+        },
+        {
+          "pos": 39,
+          "value": -5.3
+        },
+        {
+          "pos": 55,
+          "value": -7.1
+        },
+        {
+          "pos": 71,
+          "value": -10.2
+        },
+        {
+          "pos": 87,
+          "value": -15.6
+        },
+        {
+          "pos": 103,
+          "value": -21.4
+        },
+        {
+          "pos": 119,
+          "value": -24.1
+        },
+        {
+          "pos": 135,
+          "value": -23.5
+        },
+        {
+          "pos": 151,
+          "value": -19.4
+        },
+        {
+          "pos": 167,
+          "value": -7.5
+        },
+        {
+          "pos": 183,
+          "value": 8.6
+        },
+        {
+          "pos": 199,
+          "value": 16.4
+        },
+        {
+          "pos": 215,
+          "value": 12.0
+        },
+        {
+          "pos": 231,
+          "value": -0.9
+        },
+        {
+          "pos": 247,
+          "value": -19.8
+        },
+        {
+          "pos": 263,
+          "value": -39.0
+        },
+        {
+          "pos": 279,
+          "value": -52.7
+        },
+        {
+          "pos": 295,
+          "value": -45.6
+        },
+        {
+          "pos": 311,
+          "value": -20.8
+        },
+        {
+          "pos": 327,
+          "value": 12.9
+        },
+        {
+          "pos": 343,
+          "value": 37.5
+        },
+        {
+          "pos": 359,
+          "value": 47.5
+        },
+        {
+          "pos": 375,
+          "value": 47.6
+        },
+        {
+          "pos": 391,
+          "value": 29.0
+        },
+        {
+          "pos": 407,
+          "value": 2.8
+        },
+        {
+          "pos": 423,
+          "value": -28.2
+        },
+        {
+          "pos": 439,
+          "value": -49.6
+        },
+        {
+          "pos": 455,
+          "value": -44.5
+        },
+        {
+          "pos": 471,
+          "value": -28.1
+        },
+        {
+          "pos": 475,
+          "value": -24.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 350,
+    "start_s": 114.89375,
+    "end_s": 115.10104166666666,
+    "note": {
+      "isMuted": false,
+      "lyric": "When",
+      "phoneme": "w e n",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 110298,
+      "duration": 199,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.42676,
+        "amplitudeStart": 0.62302,
+        "amplitudeEnd": 0.7044,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 9.2
+        },
+        {
+          "pos": 10,
+          "value": 12.4
+        },
+        {
+          "pos": 26,
+          "value": 4.2
+        },
+        {
+          "pos": 42,
+          "value": -3.4
+        },
+        {
+          "pos": 58,
+          "value": -7.7
+        },
+        {
+          "pos": 74,
+          "value": -10.8
+        },
+        {
+          "pos": 90,
+          "value": -8.9
+        },
+        {
+          "pos": 106,
+          "value": -2.4
+        },
+        {
+          "pos": 122,
+          "value": -0.5
+        },
+        {
+          "pos": 138,
+          "value": -9.7
+        },
+        {
+          "pos": 154,
+          "value": 5.6
+        },
+        {
+          "pos": 170,
+          "value": 14.8
+        },
+        {
+          "pos": 186,
+          "value": 11.6
+        },
+        {
+          "pos": 198,
+          "value": 4.9
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 351,
+    "start_s": 115.10104166666666,
+    "end_s": 115.37083333333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "I",
+      "phoneme": "aI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 110497,
+      "duration": 259,
+      "number": 72,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.51077,
+        "amplitudeStart": 0.35191,
+        "amplitudeEnd": 0.644,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": 2.3
+        },
+        {
+          "pos": 31,
+          "value": 2.3
+        },
+        {
+          "pos": 41,
+          "value": -0.9
+        },
+        {
+          "pos": 57,
+          "value": -14.4
+        },
+        {
+          "pos": 73,
+          "value": -47.9
+        },
+        {
+          "pos": 89,
+          "value": -72.6
+        },
+        {
+          "pos": 105,
+          "value": -76.9
+        },
+        {
+          "pos": 121,
+          "value": -76.9
+        },
+        {
+          "pos": 137,
+          "value": -76.9
+        },
+        {
+          "pos": 153,
+          "value": -76.9
+        },
+        {
+          "pos": 169,
+          "value": -76.9
+        },
+        {
+          "pos": 183,
+          "value": -76.9
+        },
+        {
+          "pos": 258,
+          "value": -76.9
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 352,
+    "start_s": 115.37083333333334,
+    "end_s": 115.70625,
+    "note": {
+      "isMuted": false,
+      "lyric": "stopped",
+      "phoneme": "s t Q p t",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 110756,
+      "duration": 322,
+      "number": 76,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.3119791846762865,
+        "amplitudeStart": 0.38,
+        "amplitudeEnd": 0.37916,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -129.7
+        },
+        {
+          "pos": 15,
+          "value": -75.1
+        },
+        {
+          "pos": 31,
+          "value": -24.1
+        },
+        {
+          "pos": 47,
+          "value": 1.3
+        },
+        {
+          "pos": 63,
+          "value": 10.6
+        },
+        {
+          "pos": 79,
+          "value": 11.2
+        },
+        {
+          "pos": 96,
+          "value": 4.8
+        },
+        {
+          "pos": 123,
+          "value": 2.2
+        },
+        {
+          "pos": 149,
+          "value": -1.5
+        },
+        {
+          "pos": 176,
+          "value": -3.4
+        },
+        {
+          "pos": 202,
+          "value": -3.6
+        },
+        {
+          "pos": 228,
+          "value": -3.6
+        },
+        {
+          "pos": 255,
+          "value": -3.6
+        },
+        {
+          "pos": 281,
+          "value": -3.6
+        },
+        {
+          "pos": 308,
+          "value": -3.6
+        },
+        {
+          "pos": 321,
+          "value": -3.6
+        }
+      ]
+    }
+  },
+  {
+    "note_id": 353,
+    "start_s": 115.915625,
+    "end_s": 116.30520833333334,
+    "note": {
+      "isMuted": false,
+      "lyric": "taking",
+      "phoneme": "t eI",
+      "langID": 1,
+      "isProtected": true,
+      "pos": 111279,
+      "duration": 374,
+      "number": 76,
+      "velocity": 64,
+      "exp": {
+        "accent": 50,
+        "decay": 50,
+        "bendDepth": 0,
+        "bendLength": 0,
+        "opening": 127
+      },
+      "aiExp": {
+        "pitchFine": 0.5,
+        "pitchDriftStart": 0.5,
+        "pitchDriftEnd": 0.5,
+        "pitchScalingCenter": 0.5,
+        "pitchScalingOrigin": 0.5,
+        "pitchTransitionStart": 0.5,
+        "pitchTransitionEnd": 0.5,
+        "amplitudeWhole": 0.40983,
+        "amplitudeStart": 0.42311,
+        "amplitudeEnd": 0.54,
+        "vibratoLeadingDepth": 0.5,
+        "vibratoFollowingDepth": 0.5
+      },
+      "singingSkill": {
+        "duration": 80,
+        "weight": {
+          "pre": 64,
+          "post": 64
+        }
+      },
+      "vibrato": {
+        "type": 0,
+        "aiCurveModel": 0,
+        "depths": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "rates": [
+          {
+            "pos": 0,
+            "value": 64
+          }
+        ],
+        "duration": 160
+      },
+      "isAiVibratoEnabled": false,
+      "directPitches": [
+        {
+          "pos": 0,
+          "value": -182.5
+        },
+        {
+          "pos": 15,
+          "value": -182.5
+        },
+        {
+          "pos": 25,
+          "value": -175.3
+        },
+        {
+          "pos": 41,
+          "value": -186.7
+        },
+        {
+          "pos": 57,
+          "value": -201.3
+        },
+        {
+          "pos": 73,
+          "value": -205.3
+        },
+        {
+          "pos": 89,
+          "value": -201.6
+        },
+        {
+          "pos": 105,
+          "value": -181.8
+        },
+        {
+          "pos": 121,
+          "value": -129.6
+        },
+        {
+          "pos": 137,
+          "value": -73.0
+        },
+        {
+          "pos": 153,
+          "value": -24.7
+        },
+        {
+          "pos": 169,
+          "value": -4.8
+        },
+        {
+          "pos": 185,
+          "value": 0.6
+        },
+        {
+          "pos": 201,
+          "value": 1.3
+        },
+        {
+          "pos": 217,
+          "value": 2.0
+        },
+        {
+          "pos": 233,
+          "value": 2.3
+        },
+        {
+          "pos": 249,
+          "value": 2.6
+        },
+        {
+          "pos": 265,
+          "value": 1.5
+        },
+        {
+          "pos": 281,
+          "value": -1.1
+        },
+        {
+          "pos": 297,
+          "value": -0.7
+        },
+        {
+          "pos": 313,
+          "value": -0.0
+        },
+        {
+          "pos": 329,
+          "value": -0.3
+        },
+        {
+          "pos": 345,
+          "value": 3.5
+        },
+        {
+          "pos": 354,
+          "value": 1.4
+        },
+        {
+          "pos": 373,
+          "value": 1.4
+        }
+      ]
+    }
+  }
+]
