@@ -7,9 +7,9 @@ Sunoで生成した楽曲を、純正初音ミク V6（VOCALOID6）で再歌唱�
 
 A proposed automated music production architecture integrating Suno Studio, Hatsune Miku V6, VOCALOID6, VS Code, GitHub Copilot, Python, MCP, REAPER and VST3. The project explores reproducible music production using a common Song IR (JSON), independent production stages, quality gates and recovery paths.
 
-**Status: Phase-0 offline interfaces implemented; end-to-end production NOT_RUN.** MIDI candidate extraction, lyric handoff and REAPER script generation have offline test evidence. A separate [owner-reported VOCALOID7 trial / asa synthesis draft PR](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/pull/1) is not independently reproduced or included in the alpha release. The original V6/Miku design remains a target, not an achieved feature. One-click Windows production is unverified.
+**Status:** Phase-0 offline interfaces are covered by the alpha release. A separate Windows case study documents a locally rendered English Hatsune Miku performance, its editable score, full-song frequency audit, mix and lyric MV. Independent end-to-end reproduction remains open.
 
-現在はオフラインIFの部分実装段階です。VOCALOID7体験版の本人報告と、初音ミクでの総合制作の実証は区別します。
+[実機制作記録「We Flowed Past the Morning」](docs/case-studies/morning/README.md)には、原唱WAVからの採譜、VOCALOID7での再合成、全536音符の検査結果、修正した音を曲全体になじませる最終工程を掲載しています。[先行するasaの試験記録（PR #1）](https://github.com/Gacky-Lab/AI-VOCALOID-STUDIO/pull/1)も参照できます。
 
 ![AI VOCALOID STUDIO architecture](images/architecture.png)
 
