@@ -444,6 +444,8 @@ python -m ai_vocaloid approve --song song_001 --run-id RUN_ID
 
 ### 11.1 品質ゲート（初期目標・実測で校正）
 
+原唱WAVを採譜する案件では、全曲5 ms監査、修正前後の実機再合成、Excelの保存後の全行照合を作品単位で記録する。[必須工程とExcelの受入条件](VOCAL_PRODUCTION_ACCEPTANCE.md)
+
 | ID | 検査 | 初期受入目標 | 判定方法 |
 |---|---|---|---|
 | Q01 | 正式歌詞の欠落 | 0件、許可された反復のみ | Song IRの歌詞対応、歌唱認識、最終試聴 |
