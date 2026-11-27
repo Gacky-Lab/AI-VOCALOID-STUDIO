@@ -1,0 +1,18 @@
+{
+  "decisions": {
+    "kimi": {
+      "answer": 2,
+      "selection": "previous"
+    },
+    "kurai": {
+      "answer": 0,
+      "selection": "previous"
+    },
+    "bokura": {
+      "answer": 2,
+      "selection": "candidate"
+    }
+  },
+  "seconds": 192.2,
+  "peak_dbfs": -2.0390429496765137
+}

@@ -1,0 +1,24 @@
+{
+  "vowels": 580,
+  "selected": 11,
+  "lines": 11,
+  "before_dB": 4.594780424512833,
+  "after_dB": 3.479214364023008,
+  "clip_center": 41.1805,
+  "duration_s": 192.2,
+  "peak_dbfs": -2.0390429496765137,
+  "mix_rms_change_db": -0.001560507704521541,
+  "note557": [
+    [
+      "44",
+      "557",
+      "u",
+      152.8245,
+      152.84449999999998,
+      "insufficient_gain",
+      null,
+      null,
+      null
+    ]
+  ]
+}
