@@ -1,8 +1,8 @@
-﻿# キミガオトす星のカケラ / Gacky-Lab feat. 初音ミク
+# キミガオトす星のカケラ / Gacky-Lab feat. 初音ミク
 
-[![横型60秒の初音ミク・ダンスMV](cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)
+[![横型60秒の初音ミク・ダンスMV](cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/d6dfab34960c621730030a501c25708a9a8cf48a/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)
 
-[冒頭から最初のサビまで再生する（MP4・60秒）](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)。サビは約28秒から。端末によってはタップすると動画をダウンロードする。
+[冒頭から最初のサビまで再生する（MP4・60秒）](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/d6dfab34960c621730030a501c25708a9a8cf48a/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)。サビは約28秒から。端末によってはタップすると動画をダウンロードする。
 
 ## 制作と検証
 

@@ -2,9 +2,9 @@
 
 ## キミガオトす星のカケラ / Gacky-Lab feat. 初音ミク
 
-[![初音ミク・ダンスMVを再生（横型60秒）](docs/case-studies/kakera/dance-mv/cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)
+[![初音ミク・ダンスMVを再生（横型60秒）](docs/case-studies/kakera/dance-mv/cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/d6dfab34960c621730030a501c25708a9a8cf48a/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)
 
-[横型60秒MV](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4) · [調声・ダンスの設計と実測記録](docs/case-studies/kakera/dance-mv/)
+[横型60秒MV](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/d6dfab34960c621730030a501c25708a9a8cf48a/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4) · [調声・ダンスの設計と実測記録](docs/case-studies/kakera/dance-mv/)
 
 [原唱WAVからの制作工程・周波数Excelの受入条件](docs/VOCAL_PRODUCTION_ACCEPTANCE.md)
 
