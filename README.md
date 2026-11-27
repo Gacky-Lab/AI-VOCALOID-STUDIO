@@ -1,5 +1,11 @@
 # AI VOCALOID STUDIO
 
+## キミガオトす星のカケラ / Gacky-Lab feat. 初音ミク
+
+[![初音ミク・ダンスMVを再生（横型60秒）](docs/case-studies/kakera/dance-mv/cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4)
+
+[横型60秒MV](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/main/docs/case-studies/kakera/dance-mv/Kakera-Miku-First-Chorus-X.mp4) · [調声・ダンスの設計と実測記録](docs/case-studies/kakera/dance-mv/)
+
 [原唱WAVからの制作工程・周波数Excelの受入条件](docs/VOCAL_PRODUCTION_ACCEPTANCE.md)
 
 [日本語曲「キミガオトす星のカケラ」の7〜12秒を聴き比べ、全曲の音符間隔を再計算する](docs/case-studies/kakera/)

@@ -1,0 +1,153 @@
+[
+  {
+    "note": 155,
+    "lyric": "お",
+    "sec": 40.510416666666664,
+    "target": 70,
+    "previous": 67.09140612384486,
+    "control": 67.09594819163713,
+    "candidate": 70.09542542692253,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 159,
+    "lyric": "て",
+    "sec": 41.175,
+    "target": 63,
+    "previous": 58.61549355712035,
+    "control": 58.615174992937725,
+    "candidate": 64.61463179747554,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 165,
+    "lyric": "つ",
+    "sec": 42.688541666666666,
+    "target": 65,
+    "previous": 63.01086491043529,
+    "control": 63.006348003143394,
+    "candidate": 65.00257479564438,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 530,
+    "lyric": "つ",
+    "sec": 146.87083333333334,
+    "target": 65,
+    "previous": 61.40971962122867,
+    "control": 61.399572395434355,
+    "candidate": 63.39681540570136,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 166,
+    "lyric": "け",
+    "sec": 42.94166666666667,
+    "target": 63,
+    "previous": 53.051738171766324,
+    "control": 53.11506745270772,
+    "candidate": 63.0913200456746,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 531,
+    "lyric": "け",
+    "sec": 147.15625,
+    "target": 63,
+    "previous": 65.22615139337017,
+    "control": 65.3588580410258,
+    "candidate": 63.397188860451934,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 167,
+    "lyric": "た",
+    "sec": 43.016666666666666,
+    "target": 65,
+    "previous": 52.949964257268036,
+    "control": 52.94023090941317,
+    "candidate": 64.95082435227523,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 168,
+    "lyric": "あ",
+    "sec": 43.12708333333333,
+    "target": 63,
+    "previous": 52.26675136296201,
+    "control": 52.33298537971479,
+    "candidate": 62.54707184812426,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 169,
+    "lyric": "た",
+    "sec": 43.31041666666667,
+    "target": 65,
+    "previous": 52.97485587284619,
+    "control": 52.966263675889856,
+    "candidate": 64.99602259807467,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 534,
+    "lyric": "た",
+    "sec": 147.52291666666667,
+    "target": 65,
+    "previous": 53.10039296307859,
+    "control": 53.09098812294545,
+    "candidate": 65.10971106904951,
+    "coverage": {},
+    "accepted": true
+  },
+  {
+    "note": 170,
+    "lyric": "ら",
+    "sec": 43.475,
+    "target": 67,
+    "previous": null,
+    "control": null,
+    "candidate": null,
+    "coverage": {
+      "previous": 0.0,
+      "control": 0.0,
+      "curve": 1.0
+    },
+    "accepted": true
+  },
+  {
+    "note": 535,
+    "lyric": "ら",
+    "sec": 147.690625,
+    "target": 67,
+    "previous": null,
+    "control": null,
+    "candidate": 66.8566498717484,
+    "coverage": {
+      "previous": 0.0,
+      "control": 0.0,
+      "curve": 0.9166666666666666
+    },
+    "accepted": true
+  },
+  {
+    "note": 537,
+    "lyric": "い",
+    "sec": 147.94895833333334,
+    "target": 67,
+    "previous": 67.1978548358559,
+    "control": 67.18700034339139,
+    "candidate": 65.18603842486962,
+    "coverage": {},
+    "accepted": false
+  }
+]
