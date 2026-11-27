@@ -17,9 +17,9 @@ Sunoで生成した楽曲を、純正初音ミク V6（VOCALOID6）で再歌唱�
 
 ## We Flowed Past the Morning / Gacky-Lab feat. 初音ミク
 
-[![We Flowed Past the Morning（画像をクリックしてYouTubeで歌詞MVを再生）](docs/case-studies/morning/mv-cover.jpg)](https://youtu.be/fWGwUCiSeAE)
+[![We Flowed Past the Morning 横型60秒の初音ミク・ダンスMV](docs/case-studies/morning/dance-mv/cover.jpg)](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/4f9792d994dfeb4e5e12ecbcbf2a2b6358a118a4/docs/case-studies/morning/dance-mv/We-Flowed-Miku-Dance-60s.mp4)
 
-Sunoの歌声から音符を取り、初音ミクで歌い直した英詞曲です。[歌詞MVを観る](https://youtu.be/fWGwUCiSeAE) · [1分46秒の原唱・ミク修正前・修正後を聴き比べる](docs/case-studies/morning/we-flowed/README.md)
+Sunoの歌声から音符を取り、初音ミクで歌い直した英詞曲です。[横型60秒のダンスMV](https://raw.githubusercontent.com/Gacky-Lab/AI-VOCALOID-STUDIO/4f9792d994dfeb4e5e12ecbcbf2a2b6358a118a4/docs/case-studies/morning/dance-mv/We-Flowed-Miku-Dance-60s.mp4) · [フル尺の歌詞MV（YouTube）](https://youtu.be/fWGwUCiSeAE) · [1分46秒の原唱・ミク修正前・修正後を聴き比べる](docs/case-studies/morning/we-flowed/README.md)
 
 A proposed automated music production architecture integrating Suno Studio, Hatsune Miku V6, VOCALOID6, VS Code, GitHub Copilot, Python, MCP, REAPER and VST3. The project explores reproducible music production using a common Song IR (JSON), independent production stages, quality gates and recovery paths.
 
